@@ -1,17 +1,9 @@
-from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
 import random
 import re
 from bs4 import BeautifulSoup
 from Anjuke.init import *
 from Anjuke.getCityPinyin import CityPinyin
-options = webdriver.ChromeOptions()
-options.add_argument('--headless')
-options.add_argument('--disable-gpu')
-options.add_argument('lang=zh_CN.UTF-8')
-options.add_argument('user-agent={}'.format(random.choice(useragent)))
-options.add_argument('cookies={}'.format(random.choice(cookies)))
-browser = webdriver.Chrome(chrome_options=options)
+import requests
 
 
 def getPerPageErshoufang(html):
@@ -41,20 +33,17 @@ def getPerPageErshoufang(html):
 
 
 def getCityErshoufang(city):
-    url = 'https://{}.anjuke.com/sale/'.format(CityPinyin(city))
-    browser.get(url)
+    urls = [
+        'https://{}.anjuke.com/sale/p{}/#filtersort'.format(CityPinyin(city),i)
+        for i in range(1,51)
+    ]
     ershoufang = []
-    for i in getPerPageErshoufang(browser.page_source):
-        ershoufang.append(i)
-    while True:
-        try:
-            browser.find_element_by_class_name('aNxt').click()
-            print("正在获取 {}".format(browser.current_url))
-            for i in getPerPageErshoufang(browser.page_source):
-                ershoufang.append(i)
-        except NoSuchElementException:
-            print("{} 页面获取完成".format(city))
-            break
+    for url in urls:
+        response = requests.get(url,headers=header)
+        page_data = getPerPageErshoufang(response.text)
+        ershoufang.append(page_data)
+    return ershoufang
+
 
 
 getCityErshoufang('上海')

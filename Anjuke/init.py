@@ -34,11 +34,3 @@ for i in list:
     time+=str(i)
 datapath = "D:\\Anjuke"
 
-if not os.path.exists(datapath):
-    os.mkdir(datapath)
-if not os.path.exists(datapath+"\\newhouse_excel"):
-    os.mkdir(datapath+"\\newhouse_excel")
-if not os.path.exists(datapath+"\\newhouse_json"):
-    os.mkdir(datapath+"\\newhouse_json")
-if not os.path.exists(datapath+"\\newhouse_html"):
-    os.mkdir(datapath+"\\newhouse_html")

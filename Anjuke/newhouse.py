@@ -123,24 +123,12 @@ def excel(house,city):
     # print("{} 成功存入html".format(city))
 
 
-def china_total_newhouse(china_city,china_num):
-    china_house['city'] = china_city
-    china_house['num'] = china_num
-    frame = DataFrame(china_house)
-    frame.to_excel(datapath+"\\china_newhouse_anjuke.xls",index=True)
 
 def parse_newhouse():
     all_city = citylist()
-    dir = os.listdir("D:\Anjuke\\newhouse_excel")
     data = []
-    for i in dir:
-        data.append(i.replace('.xls', ''))
     for key ,value in all_city.items():
-        if key in data:
-            break
-        else:
-            house = getCityHouse(key)
-            mongo(house,key)
-            excel(house,key)
-    china_total_newhouse(china_city,china_num)
+        house = getCityHouse(key)
+        mongo(house,key)
+        excel(house,key)
 parse_newhouse()
