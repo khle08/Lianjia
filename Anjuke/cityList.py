@@ -1,6 +1,6 @@
 import requests
 import re
-from Anjuke.init import *
+from anjuke.init import *
 
 def citylist():
     all_city = {}

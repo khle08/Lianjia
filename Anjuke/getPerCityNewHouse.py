@@ -2,8 +2,8 @@ import re
 import requests
 from functools import reduce
 from bs4 import BeautifulSoup
-from Anjuke.getCityPinyin import CityPinyin
-from Anjuke.init import *
+from anjuke.getCityPinyin import CityPinyin
+from anjuke.init import *
 
 
 
