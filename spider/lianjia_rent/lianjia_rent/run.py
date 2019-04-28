@@ -2,10 +2,10 @@
 from scrapy import cmdline
 
 
-def run():
+def run_rent():
     args = "scrapy crawl rent".split()
     cmdline.execute(args)
 
 
 if __name__ == '__main__':
-    run()
+    run_rent()

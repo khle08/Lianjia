@@ -11,6 +11,7 @@ header = {
 NOT_EXIST = -1
 DEFAULT_NEWHOUSE_PAGE = 20
 
+
 def all_city_map():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
     data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),
@@ -27,6 +28,7 @@ def get_all_city():
                       response.text)
     all_city_url_list = ['https://{}.lianjia.com/'.format(tuple[0]) for tuple in data]
     return all_city_url_list
+
 
 def get_new_house_page(url):
     response = requests.get("{}/loupan/pg1/".format(url), headers=header).text

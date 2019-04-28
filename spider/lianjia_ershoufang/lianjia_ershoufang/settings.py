@@ -9,6 +9,7 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 import time
+
 BOT_NAME = 'lianjia_ershoufang'
 
 SPIDER_MODULES = ['lianjia_ershoufang.spiders']

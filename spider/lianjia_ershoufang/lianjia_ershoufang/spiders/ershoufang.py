@@ -41,19 +41,31 @@ class ErshoufangSpider(scrapy.Spider):
             item = LianjiaErshoufangItem()
             item['city'] = city
             item['house_url'] = url[i]
-            if len(img_title[i][0]) > 120:
-                item['img_url'] = img_title[i][0].split('">')[0]
+            if img_title[i][0]:
+                if len(img_title[i][0]) > 120:
+                    item['img_url'] = img_title[i][0].split('">')[0]
+                else:
+                    item['img_url'] = img_title[i][0]
             else:
-                item['img_url'] = img_title[i][0]
-            item['title'] = img_title[i][1]
+                item['img_url'] = NOT_EXIST
+            if img_title[i][1]:
+                item['title'] = img_title[i][1]
+            else:
+                item['title'] = NOT_EXIST
             item['xiaoqu_url'] = xiaoqu[i]['xiaoqu_url']
             item['xiaoqu_name'] = xiaoqu[i]['xiaoqu_name']
             item['huxing'] = xiaoqu[i]['huxing']
             item['position_info'] = position_info[i]['position_info']
             item['position'] = position_info[i]['position']
             item['position_url'] = position_info[i]['position_url']
-            item['total_price'] = int(total_price[i]) * 10000
-            item['unit_price'] = int(unit_price[i])
+            if total_price[i].isdigit():
+                item['total_price'] = int(total_price[i]) * 10000
+            else:
+                item['total_price'] = NOT_EXIST
+            if unit_price[i].isdigit():
+                item['unit_price'] = int(unit_price[i])
+            else:
+                item['unit_price'] = NOT_EXIST
             item['crawl_time'] = int(time.time())
             yield item
 

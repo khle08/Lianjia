@@ -35,38 +35,86 @@ class NewhouseSpider(scrapy.Spider):
         ul = soup.find_all(attrs={'class': 'resblock-list post_ulog_exposure_scroll has-results'})
         for li in ul:
             item = NewhouseItem()
-            item['loupan'] = li.find_all(attrs={'class': 'name'})[0].text
-            item['city'] = self.city
-            item['loupan_url'] = self.city_url[:-1] + li.find_all(attrs={'class': 'name'})[0].attrs['href']
-            item['wuye_type'] = li.find_all(attrs={'class': 'resblock-type'})[0].text
-            item['sale_status'] = li.find_all(attrs={'class': 'sale-status'})[0].text
-            item['img_url'] = li.find_all(attrs={'class': 'lj-lazy'})[0].attrs['data-original']
-            item['location'] = li.find_all(attrs={'class': 'resblock-location'})[0].text.replace('\n', '').split('/')
-            item['huxing'] = li.find_all(attrs={'class': 'resblock-room'})[0].text.replace('\n', '')
-            tmp_area = li.find_all(attrs={'class': 'resblock-area'})[0].text. \
-                replace(' ', '').replace('\n', '').replace('建面', '').replace('㎡', '')
-            if tmp_area == '':
-                item['area'] = []
+            temp = li.find_all(attrs={'class': 'name'})
+            if temp:
+                item['loupan'] = temp[0].text
             else:
-                list = tmp_area.split('-')
-                item['area'] = [int(i) for i in list]
+                item['loupan'] = NOT_EXIST
+            item['city'] = self.city
+            temp = li.find_all(attrs={'class': 'name'})
+            if temp:
+                item['loupan_url'] = self.city_url[:-1] + temp[0].attrs['href']
+            else:
+                item['loupan_url'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'resblock-type'})
+            if temp:
+                item['wuye_type'] = temp[0].text
+            else:
+                item['wuye_type'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'sale-status'})
+            if temp:
+                item['sale_status'] = temp[0].text
+            else:
+                item['sale_status'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'lj-lazy'})
+            if temp:
+                item['img_url'] = temp[0].attrs['data-original']
+            else:
+                item['img_url'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'resblock-location'})
+            if temp:
+                item['location'] = temp[0].text.replace('\n', '').split('/')
+            else:
+                item['location'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'resblock-room'})
+            if temp:
+                item['huxing'] = temp[0].text.replace('\n', '')
+            else:
+                item['huxing'] = NOT_EXIST
+            temp = li.find_all(attrs={'class': 'resblock-area'})
+            if temp:
+                tmp_area = temp[0].text.replace(' ', '').replace('\n', '').replace('建面', '').replace('㎡', '')
+                if tmp_area == '':
+                    item['area'] = []
+                else:
+                    list = tmp_area.split('-')
+                    item['area'] = []
+                    for i in list:
+                        if i.isdigit():
+                            item['area'].append(int(i))
+                        else:
+                            item['area'].append(i)
+            else:
+                item['area'] = []
             main_price = li.find_all(attrs={'class': 'number'})
-            if (main_price != []):
-                item['main_price'] = int(main_price[0].text.replace(' ', ''))
+            if main_price != []:
+                temp = main_price[0].text.replace(' ', '')
+                if temp.isdigit():
+                    item['main_price'] = int(temp)
+                else:
+                    item['main_price'] = temp
             else:
                 item['main_price'] = NOT_EXIST
             main_price_desc = li.find_all(attrs={'class': 'desc'})
             if main_price_desc != []:
-                item['main_price_desc'] = main_price_desc[0].text.replace('\xa0','')
+                item['main_price_desc'] = main_price_desc[0].text.replace('\xa0', '')
             else:
                 item['main_price_desc'] = NOT_EXIST
             second_price = li.find_all(attrs={'class': 'second'})
             if (second_price != []):
-                item['second_price'] = int(second_price[0].text.replace('总价', ''). \
-                                           replace(' ', '').replace('万/套起', ''))
+                temp = second_price[0].text.replace('总价', ''). \
+                                           replace(' ', '').replace('万/套起', '')
+                if temp.isdigit():
+                    item['second_price'] = int(temp)
+                else:
+                    item['second_price'] = temp
             else:
                 item['second_price'] = NOT_EXIST
-            tag = li.find_all(attrs={'class': 'resblock-tag'})[0].text.replace('', '').split('\n')
-            item['tag'] = tag[1:-1]
+            temp = li.find_all(attrs={'class': 'resblock-tag'})
+            if temp:
+                tag = temp[0].text.replace('', '').split('\n')
+                item['tag'] = tag[1:-1]
+            else:
+                item['tag'] = []
             item['crawl_time'] = int(time.time())
             yield item

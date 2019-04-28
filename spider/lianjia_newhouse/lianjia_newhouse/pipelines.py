@@ -7,6 +7,7 @@
 import pymongo
 import elasticsearch
 
+
 class NewhouseEsPipeline(object):
     def __init__(self, es_index):
         self.es = elasticsearch.Elasticsearch()
@@ -57,4 +58,3 @@ class NewhouseMongoPipeline(object):
         result = self.db[item['city']].insert_one(dict(item))
         print(result)
         return item
-

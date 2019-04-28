@@ -11,4 +11,13 @@ import scrapy
 class LianjiaRentItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    house = scrapy.Field()
+    zufang_url = scrapy.Field()
+    city = scrapy.Field()
+    district_multi = scrapy.Field()
+    brand = scrapy.Field()
+    img_url = scrapy.Field()
+    price = scrapy.Field()
+    post_time = scrapy.Field()
+    tag = scrapy.Field()
+    crawl_time = scrapy.Field()
