@@ -40,26 +40,26 @@ class RentSpider(scrapy.Spider):
                     item['house'] = temp[0].text.replace('\n', '').strip()
                     item['zufang_url'] = self.city_url + temp[0].attrs['href'][1:]
                 else:
-                    item['house'] = NOT_EXIST
-                    item['zufang_url'] = NOT_EXIST
+                    item['house'] = NOT_EXIST_STR
+                    item['zufang_url'] = NOT_EXIST_STR
             else:
-                item['house'] = NOT_EXIST
-                item['zufang_url'] = NOT_EXIST
+                item['house'] = NOT_EXIST_STR
+                item['zufang_url'] = NOT_EXIST_STR
             temp = div.find_all(attrs={'class': 'content__list--item--des'})
             if temp:
                 item['district_multi'] = temp[0].text.replace('\n', '').replace(' ', '').split('/')
             else:
-                item['district_multi'] = NOT_EXIST
+                item['district_multi'] = NOT_EXIST_LIST
             temp = div.find_all(attrs={'class': 'content__list--item--brand oneline'})
             if temp:
                 item['brand'] = temp[0].text.strip()
             else:
-                item['brand'] = NOT_EXIST
+                item['brand'] = NOT_EXIST_STR
             temp = div.find_all(attrs={'class': 'content__list--item--aside'})
             if temp:
                 item['img_url'] = temp[0].img['data-src']
             else:
-                item['img_url'] = NOT_EXIST
+                item['img_url'] = NOT_EXIST_STR
             temp = div.find_all(attrs={'class': 'content__list--item-price'})
             if temp:
                 temp = temp[0].text.replace(' ', '').replace('元/月', '')
@@ -68,16 +68,16 @@ class RentSpider(scrapy.Spider):
                 else:
                     item['price'] = temp
             else:
-                item['price'] = NOT_EXIST
+                item['price'] = NOT_EXIST_NUM
             temp = div.find_all(attrs={'class': 'content__list--item--time oneline'})
             if temp:
                 item['post_time'] = temp[0].text.replace(' ', '').strip()
             else:
-                item['post_time'] = NOT_EXIST
+                item['post_time'] = NOT_EXIST_STR
             temp = div.find_all(attrs={'class': 'content__list--item--bottom oneline'})
             if temp:
                 item['tag'] = temp[0].text.split('\n')[1:-1]
             else:
-                item['tag'] = LIST_NOT_EXIST
+                item['tag'] = NOT_EXIST_LIST
             item['crawl_time'] = int(time.time())
             yield item

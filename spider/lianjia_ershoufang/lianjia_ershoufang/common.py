@@ -8,9 +8,9 @@ header = {
 }
 # 房产数据标记
 # 该字段不存在
-NOT_EXIST = -1
-
-
+NOT_EXIST_NUM = -1
+NOT_EXIST_STR = ''
+NOT_EXIST_LIST = []
 def all_city_map():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
     data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),

@@ -39,38 +39,38 @@ class NewhouseSpider(scrapy.Spider):
             if temp:
                 item['loupan'] = temp[0].text
             else:
-                item['loupan'] = NOT_EXIST
+                item['loupan'] = NOT_EXIST_STR
             item['city'] = self.city
             temp = li.find_all(attrs={'class': 'name'})
             if temp:
                 item['loupan_url'] = self.city_url[:-1] + temp[0].attrs['href']
             else:
-                item['loupan_url'] = NOT_EXIST
+                item['loupan_url'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'resblock-type'})
             if temp:
                 item['wuye_type'] = temp[0].text
             else:
-                item['wuye_type'] = NOT_EXIST
+                item['wuye_type'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'sale-status'})
             if temp:
                 item['sale_status'] = temp[0].text
             else:
-                item['sale_status'] = NOT_EXIST
+                item['sale_status'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'lj-lazy'})
             if temp:
                 item['img_url'] = temp[0].attrs['data-original']
             else:
-                item['img_url'] = NOT_EXIST
+                item['img_url'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'resblock-location'})
             if temp:
                 item['location'] = temp[0].text.replace('\n', '').split('/')
             else:
-                item['location'] = NOT_EXIST
+                item['location'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'resblock-room'})
             if temp:
                 item['huxing'] = temp[0].text.replace('\n', '')
             else:
-                item['huxing'] = NOT_EXIST
+                item['huxing'] = NOT_EXIST_STR
             temp = li.find_all(attrs={'class': 'resblock-area'})
             if temp:
                 tmp_area = temp[0].text.replace(' ', '').replace('\n', '').replace('建面', '').replace('㎡', '')
@@ -83,33 +83,33 @@ class NewhouseSpider(scrapy.Spider):
                         if i.isdigit():
                             item['area'].append(int(i))
                         else:
-                            item['area'].append(i)
+                            item['area'].append(NOT_EXIST_LIST)
             else:
-                item['area'] = []
+                item['area'] = NOT_EXIST_LIST
             main_price = li.find_all(attrs={'class': 'number'})
             if main_price != []:
                 temp = main_price[0].text.replace(' ', '')
                 if temp.isdigit():
                     item['main_price'] = int(temp)
                 else:
-                    item['main_price'] = temp
+                    item['main_price'] = NOT_EXIST_NUM
             else:
-                item['main_price'] = NOT_EXIST
+                item['main_price'] = NOT_EXIST_NUM
             main_price_desc = li.find_all(attrs={'class': 'desc'})
             if main_price_desc != []:
                 item['main_price_desc'] = main_price_desc[0].text.replace('\xa0', '')
             else:
-                item['main_price_desc'] = NOT_EXIST
+                item['main_price_desc'] = NOT_EXIST_STR
             second_price = li.find_all(attrs={'class': 'second'})
             if (second_price != []):
                 temp = second_price[0].text.replace('总价', ''). \
-                                           replace(' ', '').replace('万/套起', '')
+                    replace(' ', '').replace('万/套起', '')
                 if temp.isdigit():
                     item['second_price'] = int(temp)
                 else:
-                    item['second_price'] = temp
+                    item['second_price'] = NOT_EXIST_NUM
             else:
-                item['second_price'] = NOT_EXIST
+                item['second_price'] = NOT_EXIST_NUM
             temp = li.find_all(attrs={'class': 'resblock-tag'})
             if temp:
                 tag = temp[0].text.replace('', '').split('\n')

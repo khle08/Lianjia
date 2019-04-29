@@ -8,7 +8,9 @@ header = {
 }
 # 房产数据标记
 # 该字段不存在
-NOT_EXIST = -1
+NOT_EXIST_NUM = -1
+NOT_EXIST_STR = ''
+NOT_EXIST_LIST = []
 DEFAULT_NEWHOUSE_PAGE = 20
 
 
