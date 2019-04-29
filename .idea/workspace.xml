@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/dao/mongo.py" line="18" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="update lianjia spider">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/GraduationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraduationProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/spiders/rent.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/spiders/rent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/dao/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,22 +36,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dao/mongo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="412">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
               <folding>
-                <element signature="e#984#993#0" />
-                <element signature="e#1064#1073#0" />
-                <element signature="e#1144#1153#0" />
-                <element signature="e#1225#1234#0" />
-                <element signature="e#1306#1315#0" />
-                <element signature="e#1387#1396#0" />
-                <element signature="e#1468#1477#0" />
-                <element signature="e#1550#1559#0" />
-                <element signature="e#1622#1631#0" />
-                <element signature="e#1693#1702#0" />
-                <element signature="e#1767#1776#0" />
-                <element signature="e#1841#1850#0" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dao/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -86,10 +79,8 @@
         <option value="$PROJECT_DIR$/anjuke/newhouse.py" />
         <option value="$PROJECT_DIR$/lianjia/run.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/dao/test.py" />
         <option value="$PROJECT_DIR$/anjuke/config.py" />
         <option value="$PROJECT_DIR$/data_visualize/wordcloud_demo.py" />
-        <option value="$PROJECT_DIR$/dao/mongo.py" />
         <option value="$PROJECT_DIR$/data_visualize/test.py" />
         <option value="$PROJECT_DIR$/lianjia/lianjia/all_city.py" />
         <option value="$PROJECT_DIR$/lianjia/lianjia/constants.py" />
@@ -132,6 +123,8 @@
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/spiders/rent.py" />
+        <option value="$PROJECT_DIR$/dao/test.py" />
+        <option value="$PROJECT_DIR$/dao/mongo.py" />
       </list>
     </option>
   </component>
@@ -161,6 +154,24 @@
               <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_newhouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_newhouse" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_newhouse" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -172,7 +183,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -198,7 +209,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.run (4)">
+  <component name="RunManager" selected="Python.mongo">
     <configuration name="crawl_lianjia" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,6 +224,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/crawl_lianjia.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mongo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraduationProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dao/mongo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -287,42 +320,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GraduationProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.run (4)" />
       <item itemvalue="Python.run (5)" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.crawl_lianjia" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.mongo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mongo" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.run (4)" />
         <item itemvalue="Python.run (5)" />
         <item itemvalue="Python.crawl_lianjia" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -336,32 +347,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552191847832</updated>
-      <workItem from="1556535462435" duration="2037000" />
+      <workItem from="1556535462435" duration="6931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2037000" />
+    <option name="totallyTimeSpent" value="6931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.19591528" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.549763" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.49508196" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40327868" />
       <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.549763" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50292826" side_tool="true" weight="0.5491803" />
       <window_info anchor="bottom" id="File Transfer" order="11" weight="0.328594" />
       <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -398,6 +410,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update lianjia spider" />
     <option name="LAST_COMMIT_MESSAGE" value="update lianjia spider" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/GraduationProject$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1556546341495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lianjia_newhouse/lianjia/common.py" />
@@ -453,20 +468,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/middlewares.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="59" column="19" lean-forward="true" selection-start-line="10" selection-end-line="59" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/items.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -601,9 +595,6 @@
     <entry file="file://$PROJECT_DIR$/dao/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_visualize/bar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -634,23 +625,40 @@
     <entry file="file://$PROJECT_DIR$/data_visualize/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/dao/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="89" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="57" column="38" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dao/mongo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state relative-caret-position="412">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
           <folding>
-            <element signature="e#984#993#0" />
-            <element signature="e#1064#1073#0" />
-            <element signature="e#1144#1153#0" />
-            <element signature="e#1225#1234#0" />
-            <element signature="e#1306#1315#0" />
-            <element signature="e#1387#1396#0" />
-            <element signature="e#1468#1477#0" />
-            <element signature="e#1550#1559#0" />
-            <element signature="e#1622#1631#0" />
-            <element signature="e#1693#1702#0" />
-            <element signature="e#1767#1776#0" />
-            <element signature="e#1841#1850#0" />
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
