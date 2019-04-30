@@ -12,19 +12,19 @@ class ErshoufangSpider(scrapy.Spider):
     allowed_domains = ['lianjia.com']
     start_urls = []
     house = []
-
+    city = ''
     def __int__(self):
         self.start_urls = get_all_city()
         self.city_map = all_city_map()
 
     def start_requests(self):
         for city, url in all_city_map().items():
+            self.city = city
             for i in range(1, 101):
                 crawl_url = '{}/ershoufang/pg{}/'.format(url, str(i))
                 yield Request(crawl_url, self.parse, dont_filter=True)
 
     def parse(self, response):
-        city = re.findall(re.compile("city_name: '(.+?)'"), response.text)[0]
         url = re.findall(re.compile('<a class="noresultRecommend img " href="(.+?)"'),
                          response.text)
         img_title = re.findall(re.compile('data-original="(.+?)" alt="(.+?)"></a><div class="info clear">?'),
@@ -39,7 +39,7 @@ class ErshoufangSpider(scrapy.Spider):
                                 response.text)
         for i in range(len(url)):
             item = LianjiaErshoufangItem()
-            item['city'] = city
+            item['city'] = self.city
             if url[i]:
                 item['house_url'] = url[i]
             else:

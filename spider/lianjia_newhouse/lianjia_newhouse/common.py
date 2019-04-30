@@ -12,21 +12,30 @@ NOT_EXIST_NUM = -1
 NOT_EXIST_STR = ''
 NOT_EXIST_LIST = []
 DEFAULT_NEWHOUSE_PAGE = 20
+# 部分以下城市无新房数据，删除这些城市的url
+NO_NEWHOUSE = ['安庆', '马鞍山', '芜湖', '福州', '江门', '湛江', '北海', '桂林', '柳州', '南宁',
+               '兰州', '黄石', '襄阳', '宜昌', '常德', '岳阳', '株洲', '唐山', '开封', '洛阳',
+               '新乡', '许昌', '哈尔滨', '常州', '淮安', '昆山', '盐城', '吉林', '赣州', '九江',
+               '吉安', '上饶', '丹东', '银川', '达州', '凉山', '绵阳', '南充', '临沂', '潍坊',
+               '淄博', '宝鸡', '汉中', '咸阳', '金华', '宁波', '台州', '温州'
+               ]
 
 
 def all_city_map():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
-    data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),
+    data = re.findall(re.compile('<li><a href="https://(.+?).lianjia.com/">(.+?)</a></li>'),
                       response.text)
     city_map = {}
     for tuple in data:
         city_map[tuple[1]] = 'https://{}.lianjia.com/'.format(tuple[0])
+    for city in NO_NEWHOUSE:
+        city_map.pop(city)
     return city_map
 
 
 def get_all_city():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
-    data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),
+    data = re.findall(re.compile('<li><a href="https://(.+?).lianjia.com/">(.+?)</a></li>'),
                       response.text)
     all_city_url_list = ['https://{}.lianjia.com/'.format(tuple[0]) for tuple in data]
     return all_city_url_list
@@ -34,7 +43,7 @@ def get_all_city():
 
 def get_new_house_page(url):
     response = requests.get("{}/loupan/pg1/".format(url), headers=header).text
-    page_num = re.findall(re.compile('<span class="value">(\d+)</span>'), response)
+    page_num = re.findall(re.compile('<span class="value">(.+?)</span>'), response)
     if len(page_num) > 0:
         return int(int(page_num[0]) / 10 + 1)
     else:

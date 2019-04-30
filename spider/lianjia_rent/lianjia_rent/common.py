@@ -16,7 +16,7 @@ DEFAULT_NEWHOUSE_PAGE = 20
 
 def all_city_map():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
-    data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),
+    data = re.findall(re.compile('<li><a href="https://(.+?).lianjia.com/">(.+?)</a></li>'),
                       response.text)
     city_map = {}
     for tuple in data:
@@ -26,7 +26,7 @@ def all_city_map():
 
 def get_all_city():
     response = requests.get('https://www.lianjia.com/city/', headers=header)
-    data = re.findall(re.compile('<li><a href="https://(\w+).lianjia.com/">(.+?)</a></li>'),
+    data = re.findall(re.compile('<li><a href="https://(.+?).lianjia.com/">(.+?)</a></li>'),
                       response.text)
     all_city_url_list = ['https://{}.lianjia.com/'.format(tuple[0]) for tuple in data]
     return all_city_url_list
