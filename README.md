@@ -1,10 +1,5 @@
-# GraduationProject
-- A spider and data visualization project for my graduation project
-- this project includes thress modules:
-
-最贵top10
-最便宜top10
-均价 avergae
-最便宜小区
-最贵小区
-方差
+- 链家房产数据爬取分析可视化平台
+    - 该平台主要分为三个模块
+        - 数据爬取模块
+        * 使用scrapy框架对链家的新房，二手房，租房数据进行爬取，存入MongoDB和Elasticsearch数据库
+        * 

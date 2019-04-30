@@ -1,21 +1,20 @@
 from pyecharts.charts import Page, Pie, Bar, WordCloud
 from pyecharts import options as opts
 from pyecharts.render import make_snapshot
-from pyecharts.globals import SymbolType
+from pyecharts.globals import SymbolType, ThemeType
 # 使用 snapshot-selenium 渲染图片
 from snapshot_selenium import snapshot
 
 
-class gen_charts():
+class charts():
     # 条形图
-    def bar(self, key, value, title, subtitle) -> Bar:
+    def bar(self, key, value, city, title, subtitle) -> Bar:
         c = (
-            Bar()
+            Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
                 .add_xaxis(key)
-                .add_yaxis("商家B", value)
+                .add_yaxis(city, value)
                 .set_global_opts(title_opts=opts.TitleOpts(title=title, subtitle=subtitle))
         )
-        make_snapshot(snapshot, c.render(), "{}.png".format(title))
         return c
 
     # 饼图
@@ -26,7 +25,6 @@ class gen_charts():
                 .set_global_opts(title_opts=opts.TitleOpts(title=title))
                 .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c}"))
         )
-        make_snapshot(snapshot, c.render(), "{}.png".format(title))
         return c
 
     def wordcloud(self, word, title) -> WordCloud:
@@ -35,7 +33,6 @@ class gen_charts():
                 .add("", word, word_size_range=[20, 100])
                 .set_global_opts(title_opts=opts.TitleOpts(title=title))
         )
-        make_snapshot(snapshot, c.render(), "{}.png".format(title))
         return c
 
     def wordcloud_diamond(self, word, title) -> WordCloud:
