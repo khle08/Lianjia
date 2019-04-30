@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="update lianjia spider">
-      <change afterPath="$PROJECT_DIR$/data_visualize/房产数据可视化清单" afterDir="false" />
+    <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="新增数据分析echarts模块">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/房产数据可视化清单" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/房产数据可视化清单" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="29">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <first_editor relative-caret-position="498">
+                <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -336,7 +336,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552191847832</updated>
       <workItem from="1556535462435" duration="41063000" />
-      <workItem from="1556635528566" duration="3487000" />
+      <workItem from="1556635528566" duration="5081000" />
     </task>
     <task id="LOCAL-00001" summary="update lianjia spider">
       <created>1556609653127</created>
@@ -345,11 +345,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556609653127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增数据分析echarts模块">
+      <created>1556640297261</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556640297261</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44550000" />
+    <option name="totallyTimeSpent" value="46144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -406,7 +413,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update lianjia spider" />
-    <option name="LAST_COMMIT_MESSAGE" value="update lianjia spider" />
+    <MESSAGE value="新增数据分析echarts模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增数据分析echarts模块" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GraduationProject$pie.coverage" NAME="pie Coverage Results" MODIFIED="1556551496309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
@@ -663,8 +671,8 @@
     <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="29">
-            <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <first_editor relative-caret-position="498">
+            <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
