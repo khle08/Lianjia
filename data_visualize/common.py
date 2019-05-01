@@ -5,11 +5,46 @@ base_path = "D:\codes\GraduationProject\data_visualize"
 # 字符串模板
 main_price_range_template = '{}市每平米楼盘价位占比分布图'
 second_price_range_template = '{}市'
-
+avg_price_square_meter = '链家各城市新房每平米价格'
+temproary_loss = '0为该城市暂无数据'
+# 每平米均价模板
+first_level_avg_square_template = '链家部分一线城市及新一线城市新房每平米均价'
+second_level_land_avg_square_template = '链家部分二线内陆城市新房每平米均价'
+second_level_sea_avg_square_template = '链家部分二线沿海城市新房每平米均价'
+third_level_avg_square_template = '链家部分三线城市新房每平米均价'
+forth_level_avg_square_template = '链家部分四线城市新房每平米均价'
+fifth_level_avg_square_template = '链家部分五线城市新房每平米均价'
+# 每套均价模板
+first_level_avg_loupan = '链家部分一线城市及新一线城市每套新房均价'
+second_level_land_avg_loupan = '链家部分二线内陆城市每套新房均价'
+second_level_sea_avg_loupan = '链家部分二线沿海城市每套新房均价'
+third_level_avg_loupan = '链家部分三线城市每套新房均价'
+forth_level_avg_loupan = '链家部分四线城市每套新房均价'
+fifth_level_avg_loupan = '链家部分五线城市每套新房均价'
+# 物业类型占比分布图
+wuye_type_count_template = '{}市新房物业类型占比分布图'
+# 户型占比分布图
+huxing_count_template = '{}市新房户型占比分布图'
+#
+square_price_max_top5 = '{}市每平米最贵top5楼盘'
+square_price_min_top5 = '{}市每平米最便宜top5楼盘'
+tag_wordcloud_template = '{}市楼盘标签词云图'
 # 每平米最高统计500000每平米的房价
 max_main_price = 500000
 # 每套房统计最高1亿的价格
 max_second_price = 10000
+# 链家中国城市划分
+first_level = ['天津', '青岛', '上海', '郑州', '南京', '沈阳', '重庆', '广州',
+               '武汉', '深圳', '长沙', '大连', '成都', '西安', '杭州', '苏州', '东莞', ]
+second_land_level = ['长春', '南昌', '无锡', '石家庄', '呼和浩特', '太原', '昆明', '合肥', '绍兴',
+                     '贵阳', '济南', ]
+second_near_sea_level = [
+    '佛山', '惠州', '嘉兴', '中山', '烟台', '徐州', '厦门', '海口', '南通', '泉州', '珠海'
+]
+third_level = ['镇江', '保定', '威海', '清远', '廊坊', '秦皇岛', '漳州', '湖州', '三亚', ]
+forth_level = ['承德', '邢台', '大理', '晋中', '滁州', '西双版纳', '张家口', ]
+fifth_level = ['保亭', '黄冈', '陵水', '儋州', '乐东', '琼海', '万宁',
+               '定安', '临高', '文昌', '澄迈', '琼中', '五指山', ]
 
 
 # 生成每平米价格的范围过滤条件
