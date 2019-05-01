@@ -13,7 +13,10 @@ class charts():
             Bar(init_opts=opts.InitOpts(theme=ThemeType.LIGHT))
                 .add_xaxis(key)
                 .add_yaxis(city, value)
-                .set_global_opts(title_opts=opts.TitleOpts(title=title, subtitle=subtitle))
+                .set_global_opts(title_opts=opts.TitleOpts(title=title, subtitle=subtitle),
+                                 toolbox_opts=opts.ToolboxOpts(),
+                                 legend_opts=opts.LegendOpts(is_show=False)
+                                 )
         )
         return c
 
@@ -27,6 +30,7 @@ class charts():
         )
         return c
 
+    # 词云图
     def wordcloud(self, word, title) -> WordCloud:
         c = (
             WordCloud()
