@@ -1,4 +1,4 @@
-from pyecharts.charts import Page, Pie, Bar, WordCloud, Scatter
+from pyecharts.charts import Page, Pie, Bar, WordCloud, Scatter, Funnel
 from pyecharts import options as opts
 from pyecharts.globals import SymbolType, ThemeType
 import random
@@ -31,6 +31,39 @@ class charts():
                 .add("", [list(z) for z in zip(key, value)])
                 .set_global_opts(title_opts=opts.TitleOpts(title=title))
                 .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c}"))
+        )
+        return c
+
+    def pie_radius(self, key, value, title) -> Pie:
+        c = (
+            Pie()
+                .add(
+                "",
+                [list(z) for z in zip(key, value)],
+                radius=["40%", "75%"],
+            )
+                .set_global_opts(
+                title_opts=opts.TitleOpts(title=title),
+                legend_opts=opts.LegendOpts(
+                    orient="vertical", pos_top="15%", pos_left="2%"
+                ),
+            )
+                .set_series_opts(label_opts=opts.LabelOpts(formatter="{b}: {c}"))
+        )
+        return c
+
+    # 玫瑰饼图
+    def pie_rosetype(self, key, value, title) -> Pie:
+        v = key
+        c = (
+            Pie()
+                .add(
+                "",
+                [list(z) for z in zip(v, value)],
+                radius=["30%", "75%"],
+                center=["50%", "50%"],
+                rosetype="area",
+            ).set_global_opts(title_opts=opts.TitleOpts(title=title))
         )
         return c
 
@@ -72,4 +105,16 @@ class charts():
         )
         # c.render("scrtter_visual_map.html")
         # make_snapshot(snapshot, c.render(), "scatter_visual_map_color.gif")
+        return c
+
+    # 漏斗图
+    def funnel_label_inside(self, key, value, title) -> Funnel:
+        c = (
+            Funnel()
+                .add(
+                "租房",
+                [list(z) for z in zip(key, value)],
+                label_opts=opts.LabelOpts(position="inside"),
+            ).set_global_opts(title_opts=opts.TitleOpts(title=title))
+        )
         return c

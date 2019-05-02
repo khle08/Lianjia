@@ -2,14 +2,266 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="新增数据分析echarts模块">
-      <change afterPath="$PROJECT_DIR$/data_visualize/ershoufang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data_visualize/rent.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/common.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/echarts.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/echarts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/ershoufang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/total_price_range/温州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/total_price_range/滁州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/total_price_range/秦皇岛市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/unit_price_range/温州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/unit_price_range/滁州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang/unit_price_range/秦皇岛市每平米楼盘价位占比分布图.gif" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/newhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分一线城市及新一线城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分三线城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分二线内陆城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分二线沿海城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分五线城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_loupan/链家部分四线城市每套新房均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分一线城市及新一线城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分三线城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线内陆城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线沿海城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分五线城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分四线城市新房每平米均价.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/万宁市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/三亚市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/上海市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/东莞市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/中山市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/临高市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/乐东市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/五指山市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/佛山市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/保亭市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/保定市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/儋州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/南京市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/南昌市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/南通市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/厦门市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/合肥市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/呼和浩特市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/嘉兴市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大理市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大连市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/天津市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/太原市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/威海市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/定安市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/广州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/廊坊市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/张家口市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/徐州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/惠州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/成都市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/承德市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/文昌市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/无锡市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/昆明市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/晋中市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/杭州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/武汉市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/沈阳市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/泉州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/济南市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/海口市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/深圳市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/清远市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/湖州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/滁州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/漳州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/澄迈市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/烟台市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/珠海市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/琼中市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/琼海市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/石家庄市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/秦皇岛市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/绍兴市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/苏州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/衡水市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/西双版纳市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/西安市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/贵阳市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/邢台市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/邯郸市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/郑州市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/重庆市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/镇江市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/长春市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/长沙市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/陵水市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/青岛市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/黄冈市新房户型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/万宁市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/三亚市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/上海市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/东莞市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/中山市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/临高市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/乐东市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/五指山市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/佛山市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/保亭市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/保定市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/儋州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/南京市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/南昌市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/南通市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/厦门市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/合肥市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/呼和浩特市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/嘉兴市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/大理市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/大连市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/天津市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/太原市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/威海市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/定安市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/广州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/廊坊市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/张家口市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/徐州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/惠州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/成都市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/承德市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/文昌市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/无锡市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/昆明市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/晋中市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/杭州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/武汉市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/沈阳市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/泉州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/济南市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/海口市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/深圳市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/清远市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/湖州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/滁州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/漳州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/澄迈市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/烟台市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/珠海市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/琼中市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/琼海市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/石家庄市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/秦皇岛市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/绍兴市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/苏州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/衡水市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/西双版纳市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/西安市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/贵阳市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/邢台市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/邯郸市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/郑州市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/重庆市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/镇江市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/长春市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/长沙市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/陵水市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/青岛市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/黄冈市每平米楼盘价位占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/万宁市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/三亚市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/上海市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/东莞市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/东莞市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/中山市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/临高市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/乐东市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/乐东市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/五指山市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/五指山市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/佛山市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/保亭市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/儋州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/南京市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/南昌市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/南通市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/厦门市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/厦门市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/合肥市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/呼和浩特市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/大理市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/大连市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/天津市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/太原市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/威海市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/定安市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/广州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/徐州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/惠州市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/惠州市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/成都市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/承德市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/文昌市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/无锡市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/昆明市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/昆明市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/杭州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/武汉市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/武汉市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/沈阳市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/泉州市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/泉州市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/济南市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/海口市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/深圳市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/清远市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/湖州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/滁州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/漳州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/澄迈市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/烟台市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/珠海市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/琼中市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/琼中市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/琼海市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/石家庄市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/绍兴市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/绍兴市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/苏州市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/苏州市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/衡水市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/西双版纳市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/西安市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/西安市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/贵阳市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/邢台市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/邢台市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/邯郸市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/郑州市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/重庆市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/镇江市.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/镇江市.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/长春市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/长沙市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/陵水市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/青岛市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/second_price_range/黄冈市.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_max_top5/保亭市每平米最贵top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_max_top5/天津市每平米最贵top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_max_top5/长春市每平米最贵top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_max_top5/黄冈市每平米最贵top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/上海市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/乐东市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/佛山市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/保亭市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/保定市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/儋州市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/天津市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/承德市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/镇江市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/长春市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/陵水市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/青岛市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/square_meter_min_top5/黄冈市每平米最便宜top5楼盘.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/tag_wordcloud/保亭市楼盘标签词云图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/tag_wordcloud/天津市楼盘标签词云图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/tag_wordcloud/长春市楼盘标签词云图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/tag_wordcloud/青岛市楼盘标签词云图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/tag_wordcloud/黄冈市楼盘标签词云图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/佛山市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/保亭市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/天津市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/镇江市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/长春市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/青岛市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/wuye_type_count/黄冈市新房物业类型占比分布图.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/render.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,26 +287,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_visualize/common.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+            <state relative-caret-position="963">
+              <caret line="393" column="43" selection-start-line="368" selection-start-column="4" selection-end-line="393" selection-end-column="43" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#290#1220#0" />
+                <element signature="e#1282#2385#0" />
+                <element signature="e#2450#3418#0" />
+                <element signature="e#3485#7785#0" />
+                <element signature="e#7852#11876#0" />
+                <element signature="e#11944#13172#0" />
+                <element signature="e#13235#14444#0" />
+                <element signature="e#14523#15568#0" />
+                <element signature="e#15648#16682#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
+        <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="179">
+                <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data_visualize/rent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+            <state relative-caret-position="109">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#3752#4275#0" />
+                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#712#1975#0" />
+                <element signature="e#2288#3445#0" />
+                <element signature="e#2503#2847#0" />
+                <element signature="e#3507#9369#0" />
+                <element signature="e#3966#5799#0" />
+                <element signature="e#4028#4551#0" />
+                <element signature="e#4635#5746#0" />
+                <element signature="e#9419#10413#0" />
+                <element signature="e#9612#9748#0" />
+                <element signature="e#10487#11493#0" />
+                <element signature="e#10746#10942#0" />
+                <element signature="e#11598#12563#0" />
+                <element signature="e#11860#11988#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data_visualize/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,6 +370,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>map</find>
+      <find>count</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,7 +384,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/items.py" />
         <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/pipelines.py" />
         <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/run.py" />
         <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/spiders/ershoufang.py" />
@@ -130,21 +427,22 @@
         <option value="$PROJECT_DIR$/data_visualize/MongoDB聚合" />
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py" />
-        <option value="$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" />
-        <option value="$PROJECT_DIR$/data_visualize/echarts.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" />
         <option value="$PROJECT_DIR$/data_visualize/newhouse.py" />
-        <option value="$PROJECT_DIR$/data_visualize/test.py" />
-        <option value="$PROJECT_DIR$/data_visualize/common.py" />
         <option value="$PROJECT_DIR$/data_visualize/ershoufang.py" />
+        <option value="$PROJECT_DIR$/data_visualize/common.py" />
+        <option value="$PROJECT_DIR$/data_visualize/test.py" />
+        <option value="$PROJECT_DIR$/data_visualize/echarts.py" />
+        <option value="$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" />
+        <option value="$PROJECT_DIR$/data_visualize/rent.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="43" />
-    <option name="y" value="73" />
+    <option name="x" value="135" />
+    <option name="y" value="37" />
     <option name="width" value="1125" />
-    <option name="height" value="708" />
+    <option name="height" value="711" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -166,11 +464,6 @@
               <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
               <item name="data_visualize" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
-              <item name="spider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +502,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ershoufang">
+  <component name="RunManager" selected="Python.rent">
     <configuration name="ershoufang" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,7 +525,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="newhouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -240,12 +533,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/newhouse.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="rent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraduationProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/rent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -268,28 +583,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GraduationProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,19 +614,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.run (1)" />
-      <item itemvalue="Python.run" />
       <item itemvalue="Python.run (2)" />
       <item itemvalue="Python.ershoufang" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.newhouse" />
+      <item itemvalue="Python.rent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ershoufang" />
+        <item itemvalue="Python.rent" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.newhouse" />
+        <item itemvalue="Python.ershoufang" />
         <item itemvalue="Python.run (2)" />
-        <item itemvalue="Python.run (1)" />
-        <item itemvalue="Python.run" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +643,7 @@
       <workItem from="1556535462435" duration="41063000" />
       <workItem from="1556635528566" duration="7697000" />
       <workItem from="1556671197176" duration="10813000" />
-      <workItem from="1556683819937" duration="37300000" />
+      <workItem from="1556683819937" duration="62604000" />
     </task>
     <task id="LOCAL-00001" summary="update lianjia spider">
       <created>1556609653127</created>
@@ -377,21 +670,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96873000" />
+    <option name="totallyTimeSpent" value="122177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16111952" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2881997" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.328594" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49707174" weight="0.36393443" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49707174" visible="true" weight="0.37540984" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.3989547" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="8" />
@@ -439,41 +732,22 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GraduationProject$pie.coverage" NAME="pie Coverage Results" MODIFIED="1556551496309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$rent.coverage" NAME="rent Coverage Results" MODIFIED="1556792624439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$run.coverage" NAME="run Coverage Results" MODIFIED="1556735046550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
     <SUITE FILE_PATH="coverage/GraduationProject$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1556735060971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent" />
     <SUITE FILE_PATH="coverage/GraduationProject$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1556606746138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao" />
-    <SUITE FILE_PATH="coverage/GraduationProject$newhouse.coverage" NAME="newhouse Coverage Results" MODIFIED="1556733893714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$newhouse.coverage" NAME="newhouse Coverage Results" MODIFIED="1556769869615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1556735049231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
-    <SUITE FILE_PATH="coverage/GraduationProject$test.coverage" NAME="test Coverage Results" MODIFIED="1556756548991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$ershoufang.coverage" NAME="ershoufang Coverage Results" MODIFIED="1556758426318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$ershoufang.coverage" NAME="ershoufang Coverage Results" MODIFIED="1556769578750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$test.coverage" NAME="test Coverage Results" MODIFIED="1556784325985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$common__1_.coverage" NAME="common (1) Coverage Results" MODIFIED="1556618531588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
     <SUITE FILE_PATH="coverage/GraduationProject$common.coverage" NAME="common Coverage Results" MODIFIED="1556680643251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$mongo__1_.coverage" NAME="mongo (1) Coverage Results" MODIFIED="1556607576934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python3.6.7/Lib/site-packages/scrapy/spidermiddlewares/referer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="338" selection-start-line="338" selection-end-line="338" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/crawl_lianjia.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/Mongo_ES/Sec_event.txt" />
-    <entry file="file://$PROJECT_DIR$/dao/Mongo_ES/Sec_event_attack.txt" />
-    <entry file="file://$PROJECT_DIR$/dao/__init__.py" />
     <entry file="file://$PROJECT_DIR$/data_visualize/bar.png" />
     <entry file="file://$PROJECT_DIR$/data_visualize/wordcloud_demo.py" />
     <entry file="file://$PROJECT_DIR$/data_visualize/北京.png" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/render.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/data_visualize/line3d.png" />
     <entry file="file://$PROJECT_DIR$/data_visualize/line3d.gif" />
     <entry file="file://$PROJECT_DIR$/data_visualize/barimg.png" />
@@ -630,30 +904,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/echarts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-            <element signature="e#361#798#0" />
-            <element signature="e#676#960#0" />
-            <element signature="e#1983#2520#0" />
-            <element signature="e#2577#3106#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="643">
-            <caret line="31" column="12" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -689,43 +939,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+    <entry file="file://$PROJECT_DIR$/data_visualize/render.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10585">
-          <caret line="19" column="33" lean-forward="true" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="-696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/crawl_lianjia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/charts/basic_charts/pie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-311">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/options/series_options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_visualize/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="66" />
+        <state relative-caret-position="319">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
+    <entry file="file://$PROJECT_DIR$/data_visualize/echarts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+        <state relative-caret-position="194">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#3752#4275#0" />
+            <element signature="e#0#63#0" expanded="true" />
+            <element signature="e#265#1067#0" />
+            <element signature="e#1131#1397#0" />
+            <element signature="e#2015#2445#0" />
+            <element signature="e#2053#2401#0" />
+            <element signature="e#2496#2908#0" />
+            <element signature="e#2993#3483#0" />
+            <element signature="e#3964#4334#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/common.py">
+    <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="179">
+            <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
+        <state relative-caret-position="224">
+          <caret line="375" column="46" selection-start-line="375" selection-start-column="46" selection-end-line="375" selection-end-column="46" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#3547#9409#0" />
+            <element signature="e#4068#4591#0" />
+            <element signature="e#9476#15420#0" />
+            <element signature="e#15499#16684#0" />
+            <element signature="e#18022#18989#0" />
+            <element signature="e#19059#20031#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="963">
+          <caret line="393" column="43" selection-start-line="368" selection-start-column="4" selection-end-line="393" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#290#1220#0" />
+            <element signature="e#1282#2385#0" />
+            <element signature="e#2450#3418#0" />
+            <element signature="e#3485#7785#0" />
+            <element signature="e#7852#11876#0" />
+            <element signature="e#11944#13172#0" />
+            <element signature="e#13235#14444#0" />
+            <element signature="e#14523#15568#0" />
+            <element signature="e#15648#16682#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/rent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#712#1975#0" />
+            <element signature="e#2288#3445#0" />
+            <element signature="e#2503#2847#0" />
+            <element signature="e#3507#9369#0" />
+            <element signature="e#3966#5799#0" />
+            <element signature="e#4028#4551#0" />
+            <element signature="e#4635#5746#0" />
+            <element signature="e#9419#10413#0" />
+            <element signature="e#9612#9748#0" />
+            <element signature="e#10487#11493#0" />
+            <element signature="e#10746#10942#0" />
+            <element signature="e#11598#12563#0" />
+            <element signature="e#11860#11988#0" />
           </folding>
         </state>
       </provider>

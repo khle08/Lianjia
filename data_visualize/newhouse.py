@@ -83,7 +83,7 @@ class newhouse_dao():
                         }
                     ).count()
                 )
-        bar = self.charts.pie(range_key, range_value, second_price_range_template.format(city))
+        bar = self.charts.pie_radius(range_key, range_value, second_price_range_template.format(city))
         make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, second_price_range_template.format(city)))
         print("finished {}  second_price_range".format(city))
 
@@ -368,12 +368,12 @@ class newhouse_dao():
 
     # 标签词云
     def tag_wordcloud(self, collections):
-        save_dir = save_dir = self.path + "\\tag_wordcloud"
+        save_dir = self.path + "\\tag_wordcloud"
         if not os.path.exists(save_dir):
             os.mkdir(save_dir)
-        word = {}
-        wordcloud = []
         for city in collections:
+            word = {}
+            wordcloud = []
             result = list(self.db[city].aggregate(
                 [
                     {'$match': {'tag': {'$ne': []}}},
@@ -388,10 +388,10 @@ class newhouse_dao():
                     word[i] += 1
             for key, value in word.items():
                 wordcloud.append((key, value))
-            tag = self.charts.wordcloud_diamond(wordcloud, title=tag_wordcloud_template.format(city))
+            tag = self.charts.wordcloud_diamond(wordcloud, title='{}市新房热门标签'.format(city))
             make_snapshot(snapshot, tag.render(),
-                          "{}\\{}.gif".format(save_dir, tag_wordcloud_template.format(city)))
-            print("finish {} tag wordcloud".format(city))
+                          "{}\\{}.gif".format(save_dir, '{}市新房热门标签'.format(city)))
+            print("完成{}市热门标签".format(city))
 
 
 if __name__ == '__main__':
