@@ -8,7 +8,7 @@ from pyecharts.render import make_snapshot
 from snapshot_selenium import snapshot
 
 
-class ershoufang_dao():
+class ershoufang():
     unit_price_template = '{}市二手房每平米楼盘价位占比分布图'
     total_price_template = '{}市二手房每套房价位占比分布图'
     yuan_per_square = '元/平'
@@ -397,6 +397,3 @@ class ershoufang_dao():
                           "{}\\{}.gif".format(save_dir, '{}市二手房热门地段'.format(city)))
             print("完成{}市二手房热门地段词云".format(city))
 
-
-if __name__ == '__main__':
-    ershoufang = ershoufang_dao()

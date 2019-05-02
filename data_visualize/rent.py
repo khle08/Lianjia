@@ -270,6 +270,3 @@ class rent():
                           "{}\\{}.gif".format(save_dir, '{}市租房热门标签'.format(city)))
             print("完成{}市租房热门标签".format(city))
 
-
-if __name__ == '__main__':
-    rent = rent()

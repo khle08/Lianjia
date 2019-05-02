@@ -9,7 +9,7 @@ from snapshot_selenium import snapshot
 
 
 # 新房数据分析
-class newhouse_dao():
+class newhouse():
     def __init__(self):
         self.path = base_path + "\\newhouse"
         if not os.path.exists(self.path):
@@ -392,7 +392,3 @@ class newhouse_dao():
             make_snapshot(snapshot, tag.render(),
                           "{}\\{}.gif".format(save_dir, '{}市新房热门标签'.format(city)))
             print("完成{}市热门标签".format(city))
-
-
-if __name__ == '__main__':
-    mongo = newhouse_dao()
