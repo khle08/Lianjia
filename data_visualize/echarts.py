@@ -35,14 +35,6 @@ class charts():
         return c
 
     # 词云图
-    def wordcloud(self, word, title) -> WordCloud:
-        c = (
-            WordCloud()
-                .add("", word, word_size_range=[20, 100])
-                .set_global_opts(title_opts=opts.TitleOpts(title=title))
-        )
-        return c
-
     def wordcloud_diamond(self, word, title) -> WordCloud:
         shape = [SymbolType.ARROW, SymbolType.DIAMOND, SymbolType.RECT,
                  SymbolType.ROUND_RECT, SymbolType.TRIANGLE]

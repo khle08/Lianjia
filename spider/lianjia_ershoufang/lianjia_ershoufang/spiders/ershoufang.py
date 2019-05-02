@@ -80,7 +80,7 @@ class ErshoufangSpider(scrapy.Spider):
             else:
                 item['position_url'] = NOT_EXIST_STR
             if total_price[i].isdigit():
-                item['total_price'] = int(total_price[i]) * 10000
+                item['total_price'] = int(total_price[i])
             else:
                 item['total_price'] = NOT_EXIST_NUM
             if unit_price[i].isdigit():

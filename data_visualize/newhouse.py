@@ -16,8 +16,7 @@ class newhouse_dao():
             os.mkdir(self.path)
         self.charts = charts()
         self.client = pymongo.MongoClient()
-        # db = 'lianjia_newhouse' + str(time.strftime('%Y%m%d', time.localtime(time.time())))
-        db = 'lianjia_newhouse20190501'
+        db = 'lianjia_newhouse' + str(time.strftime('%Y%m%d', time.localtime(time.time())))
         self.db = self.client[db]
         self.collections = self.db.list_collection_names()
         # 每平米均价
