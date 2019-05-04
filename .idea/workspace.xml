@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="新增数据分析echarts模块">
-      <change afterPath="$PROJECT_DIR$/data_visualize/data_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/.idea/lianjia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/control.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/form.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/ershoufang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/newhouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/rent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/templates/二级菜单联动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lianjia/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GraduationProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GraduationProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_visualize/data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/data_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/ershoufang.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/newhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_visualize/rent.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/rent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/6：基于VC的局域网通信工具的设计与实现.doc" beforeDir="false" afterPath="$PROJECT_DIR$/doc/6：基于VC的局域网通信工具的设计与实现.doc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/test.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,82 +56,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+        <entry file="file://$PROJECT_DIR$/lianjia/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+            <state relative-caret-position="169">
+              <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#290#1220#0" />
-                <element signature="e#1282#2385#0" />
-                <element signature="e#2450#3418#0" />
-                <element signature="e#3485#7785#0" />
-                <element signature="e#7852#11876#0" />
-                <element signature="e#11944#13172#0" />
-                <element signature="e#13235#14444#0" />
-                <element signature="e#14523#15568#0" />
-                <element signature="e#15648#16682#0" />
-                <element signature="e#16745#17710#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_visualize/rent.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="866">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-                <element signature="e#275#938#0" />
-                <element signature="e#712#1975#0" />
-                <element signature="e#2288#3445#0" />
-                <element signature="e#2503#2847#0" />
-                <element signature="e#3507#9369#0" />
-                <element signature="e#3966#5799#0" />
-                <element signature="e#4028#4551#0" />
-                <element signature="e#4635#5746#0" />
-                <element signature="e#9419#10413#0" />
-                <element signature="e#9612#9748#0" />
-                <element signature="e#10487#11493#0" />
-                <element signature="e#10746#10942#0" />
-                <element signature="e#11598#12563#0" />
-                <element signature="e#11860#11988#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#538#1433#0" />
-                <element signature="e#1495#2472#0" />
-                <element signature="e#2536#3480#0" />
-                <element signature="e#3547#9409#0" />
-                <element signature="e#4068#4591#0" />
-                <element signature="e#9476#15420#0" />
-                <element signature="e#15499#16684#0" />
-                <element signature="e#16764#17954#0" />
-                <element signature="e#18022#18989#0" />
-                <element signature="e#19059#20031#0" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_visualize/data_analysis.py">
+        <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+            <state relative-caret-position="8811">
+              <caret line="393" column="6" selection-start-line="393" selection-start-column="6" selection-end-line="393" selection-end-column="6" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,6 +93,7 @@
     <findStrings>
       <find>map</find>
       <find>count</find>
+      <find>position</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,22 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/run.py" />
-        <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/spiders/ershoufang.py" />
-        <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia/settings.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/items.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/pipelines.py" />
-        <option value="$PROJECT_DIR$/lianjia_ershoufang/lianjia_ershoufang/run.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/items.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/settings.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/pipelines.py" />
-        <option value="$PROJECT_DIR$/spider/common.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/items.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_rent/test.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/settings.py" />
-        <option value="$PROJECT_DIR$/spider/test.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/settings.py" />
-        <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/test.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py" />
@@ -184,22 +134,38 @@
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py" />
         <option value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py" />
-        <option value="$PROJECT_DIR$/data_visualize/common.py" />
         <option value="$PROJECT_DIR$/data_visualize/test.py" />
         <option value="$PROJECT_DIR$/data_visualize/echarts.py" />
         <option value="$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" />
-        <option value="$PROJECT_DIR$/data_visualize/rent.py" />
-        <option value="$PROJECT_DIR$/data_visualize/newhouse.py" />
-        <option value="$PROJECT_DIR$/data_visualize/ershoufang.py" />
         <option value="$PROJECT_DIR$/data_visualize/data_analysis.py" />
+        <option value="$PROJECT_DIR$/lianjia/templates/test.html" />
+        <option value="D:/python3.6.7/Lib/site-packages/wtforms/fields/core.py" />
+        <option value="$PROJECT_DIR$/data_visualize/rent.py" />
+        <option value="$PROJECT_DIR$/data_visualize/common.py" />
+        <option value="$PROJECT_DIR$/data_visualize/ershoufang.py" />
+        <option value="$PROJECT_DIR$/data_visualize/newhouse.py" />
+        <option value="$PROJECT_DIR$/lianjia/control.py" />
+        <option value="$PROJECT_DIR$/lianjia/templates/newhouse.html" />
+        <option value="$PROJECT_DIR$/lianjia/templates/ershoufang.html" />
+        <option value="$PROJECT_DIR$/lianjia/templates/rent.html" />
+        <option value="$PROJECT_DIR$/lianjia/list.py" />
+        <option value="$PROJECT_DIR$/lianjia/templates/search.html" />
+        <option value="$PROJECT_DIR$/lianjia/constants.py" />
+        <option value="$PROJECT_DIR$/lianjia/templates/二级菜单联动.html" />
+        <option value="$PROJECT_DIR$/lianjia/templates/base.html" />
+        <option value="$PROJECT_DIR$/lianjia/test.py" />
+        <option value="$PROJECT_DIR$/lianjia/search.py" />
+        <option value="$PROJECT_DIR$/lianjia/app.py" />
+        <option value="$PROJECT_DIR$/lianjia/templates/index.html" />
+        <option value="$PROJECT_DIR$/lianjia/form.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="135" />
-    <option name="y" value="37" />
-    <option name="width" value="1125" />
-    <option name="height" value="711" />
+    <option name="x" value="43" />
+    <option name="y" value="29" />
+    <option name="width" value="1207" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -222,6 +188,11 @@
               <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
               <item name="data_visualize" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -232,7 +203,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FlaskConnectAjax" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dog_Flask" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -259,8 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.rent">
-    <configuration name="ershoufang" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.app">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,12 +240,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraduationProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianjia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/ershoufang.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianjia/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="newhouse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="constants" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -290,12 +284,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianjia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/newhouse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianjia/constants.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,7 +298,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="run (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,12 +306,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/rent.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -352,18 +346,15 @@
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianjia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianjia/test.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -371,18 +362,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.run (1)" />
       <item itemvalue="Python.run (2)" />
-      <item itemvalue="Python.ershoufang" />
+      <item itemvalue="Python.constants" />
       <item itemvalue="Python.test" />
-      <item itemvalue="Python.newhouse" />
-      <item itemvalue="Python.rent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.rent" />
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.run (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.newhouse" />
-        <item itemvalue="Python.ershoufang" />
+        <item itemvalue="Python.constants" />
         <item itemvalue="Python.run (2)" />
       </list>
     </recent_temporary>
@@ -400,7 +391,11 @@
       <workItem from="1556535462435" duration="41063000" />
       <workItem from="1556635528566" duration="7697000" />
       <workItem from="1556671197176" duration="10813000" />
-      <workItem from="1556683819937" duration="63165000" />
+      <workItem from="1556683819937" duration="68166000" />
+      <workItem from="1556813240212" duration="2155000" />
+      <workItem from="1556815452987" duration="21895000" />
+      <workItem from="1556854511288" duration="48941000" />
+      <workItem from="1556910912528" duration="26535000" />
     </task>
     <task id="LOCAL-00001" summary="update lianjia spider">
       <created>1556609653127</created>
@@ -427,57 +422,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122738000" />
+    <option name="totallyTimeSpent" value="227265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22390318" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.328594" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49707174" weight="0.37540984" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.3989547" />
-      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40327868" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50292826" side_tool="true" weight="0.5491803" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.328594" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3295082" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Data View" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.29508197" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3974152" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.328594" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-    </layout-to-restore>
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50292826" side_tool="true" weight="0.5491803" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3295082" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.40327868" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.328594" />
+      <window_info anchor="right" x="0" y="0" width="295" height="544" id="Documentation" order="0" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Data View" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -489,227 +463,23 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GraduationProject$pie.coverage" NAME="pie Coverage Results" MODIFIED="1556551496309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$rent.coverage" NAME="rent Coverage Results" MODIFIED="1556792624439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run.coverage" NAME="run Coverage Results" MODIFIED="1556735046550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1556735060971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent" />
+    <SUITE FILE_PATH="coverage/GraduationProject$list.coverage" NAME="list Coverage Results" MODIFIED="1556853049292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1556899767276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent" />
     <SUITE FILE_PATH="coverage/GraduationProject$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1556606746138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao" />
-    <SUITE FILE_PATH="coverage/GraduationProject$newhouse.coverage" NAME="newhouse Coverage Results" MODIFIED="1556769869615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1556735049231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
-    <SUITE FILE_PATH="coverage/GraduationProject$ershoufang.coverage" NAME="ershoufang Coverage Results" MODIFIED="1556769578750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$test.coverage" NAME="test Coverage Results" MODIFIED="1556784325985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1556803599843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1556951637500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
+    <SUITE FILE_PATH="coverage/GraduationProject$common.coverage" NAME="common Coverage Results" MODIFIED="1556885557340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$app.coverage" NAME="app Coverage Results" MODIFIED="1556963508206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
+    <SUITE FILE_PATH="coverage/GraduationProject$rent.coverage" NAME="rent Coverage Results" MODIFIED="1556872382184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run.coverage" NAME="run Coverage Results" MODIFIED="1556899751985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
+    <SUITE FILE_PATH="coverage/GraduationProject$newhouse.coverage" NAME="newhouse Coverage Results" MODIFIED="1556888904269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$ershoufang.coverage" NAME="ershoufang Coverage Results" MODIFIED="1556887963213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
+    <SUITE FILE_PATH="coverage/GraduationProject$test.coverage" NAME="test Coverage Results" MODIFIED="1556894434552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
+    <SUITE FILE_PATH="coverage/GraduationProject$constants.coverage" NAME="constants Coverage Results" MODIFIED="1556900388580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
     <SUITE FILE_PATH="coverage/GraduationProject$common__1_.coverage" NAME="common (1) Coverage Results" MODIFIED="1556618531588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
-    <SUITE FILE_PATH="coverage/GraduationProject$common.coverage" NAME="common Coverage Results" MODIFIED="1556680643251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$mongo__1_.coverage" NAME="mongo (1) Coverage Results" MODIFIED="1556607576934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data_visualize/wordcloud_demo.py" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/北京.png" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/line3d.png" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/line3d.gif" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/barimg.png" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="89" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/Mongo_ES/mongo.txt" />
-    <entry file="file://$PROJECT_DIR$/dao/Mongo_ES/core_asset.txt" />
-    <entry file="file://$PROJECT_DIR$/dao/common.py" />
-    <entry file="file://$PROJECT_DIR$/dao/Mongo_ES/Attack_Total.txt" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/pie.py" />
-    <entry file="file://$PROJECT_DIR$/data_visualize/bar.py" />
-    <entry file="file://$PROJECT_DIR$/dao/mongo.py" />
-    <entry file="file://$PROJECT_DIR$/dao/test.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="58">
-            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/scrapy.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="54" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="25" column="19" lean-forward="true" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-          <folding>
-            <element signature="e#24#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/MongoDB聚合">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2485">
-            <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/charts/basic_charts/wordcloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor relative-caret-position="116">
-            <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/render/snapshot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-97">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6.7/Lib/site-packages/elasticsearch/client/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="19" column="40" lean-forward="true" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/globals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/MongoDB聚合.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1914" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="82" column="57" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/spiders/rent.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-565">
-          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/render.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-696" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/crawl_lianjia.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -741,33 +511,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/echarts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#0#63#0" expanded="true" />
-            <element signature="e#265#1067#0" />
-            <element signature="e#1131#1397#0" />
-            <element signature="e#2015#2445#0" />
-            <element signature="e#2053#2401#0" />
-            <element signature="e#2496#2908#0" />
-            <element signature="e#2993#3483#0" />
-            <element signature="e#3964#4334#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="179">
-            <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/房产数据可视化清单.md" />
     <entry file="file://$PROJECT_DIR$/data_visualize/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -778,76 +522,378 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/500.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        <state relative-caret-position="453">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="7" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#290#1220#0" />
-            <element signature="e#1282#2385#0" />
-            <element signature="e#2450#3418#0" />
-            <element signature="e#3485#7785#0" />
-            <element signature="e#7852#11876#0" />
-            <element signature="e#11944#13172#0" />
-            <element signature="e#13235#14444#0" />
-            <element signature="e#14523#15568#0" />
-            <element signature="e#15648#16682#0" />
-            <element signature="e#16745#17710#0" />
+            <element signature="n#style#0;n#img#1;n#a#0;n#li#0;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/rent.py">
+    <entry file="file://$PROJECT_DIR$/data_visualize/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/pyecharts-1.0.0-py3.6.egg/pyecharts/render/snapshot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="866">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="109">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="635" selection-start-line="635" selection-end-line="635" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/snapshot_selenium/snapshot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="1996" selection-start-line="1996" selection-end-line="1996" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/render.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/newhouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="46" column="12" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/ershoufang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="38" column="11" lean-forward="true" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/rent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="48" column="6" lean-forward="true" selection-end-line="62" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/flask_wtf/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="146" column="6" selection-start-line="146" selection-start-column="6" selection-end-line="146" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/flask_wtf/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python3.6.7/Lib/site-packages/wtforms/fields/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="477" column="26" lean-forward="true" selection-start-line="477" selection-start-column="26" selection-end-line="477" selection-end-column="26" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#275#938#0" />
-            <element signature="e#712#1975#0" />
-            <element signature="e#2288#3445#0" />
-            <element signature="e#2503#2847#0" />
-            <element signature="e#3507#9369#0" />
-            <element signature="e#3966#5799#0" />
-            <element signature="e#4028#4551#0" />
-            <element signature="e#4635#5746#0" />
-            <element signature="e#9419#10413#0" />
-            <element signature="e#9612#9748#0" />
-            <element signature="e#10487#11493#0" />
-            <element signature="e#10746#10942#0" />
-            <element signature="e#11598#12563#0" />
-            <element signature="e#11860#11988#0" />
+            <element signature="e#11441#12173#0" />
+            <element signature="e#12201#12705#0" />
+            <element signature="e#12733#13426#0" />
+            <element signature="e#13463#14634#0" />
+            <element signature="e#14677#15679#0" />
+            <element signature="e#15306#15478#0" />
+            <element signature="e#15522#15679#0" />
+            <element signature="e#16768#16906#0" />
+            <element signature="e#16944#17266#0" />
+            <element signature="e#17299#17694#0" />
+            <element signature="e#17738#18729#0" />
+            <element signature="e#18763#19539#0" />
+            <element signature="e#19590#22240#0" />
+            <element signature="e#22272#23044#0" />
+            <element signature="e#23078#24222#0" />
+            <element signature="e#24257#25088#0" />
+            <element signature="e#25127#25705#0" />
+            <element signature="e#25736#28093#0" />
+            <element signature="e#28124#33636#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/二级菜单联动.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="53">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/control.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1184">
+          <caret line="303" column="34" selection-start-line="303" selection-start-column="34" selection-end-line="303" selection-end-column="34" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#538#1433#0" />
-            <element signature="e#1495#2472#0" />
-            <element signature="e#2536#3480#0" />
-            <element signature="e#3547#9409#0" />
-            <element signature="e#4068#4591#0" />
-            <element signature="e#9476#15420#0" />
-            <element signature="e#15499#16684#0" />
-            <element signature="e#16764#17954#0" />
-            <element signature="e#18022#18989#0" />
-            <element signature="e#19059#20031#0" />
+            <element signature="e#1982#1988#0" expanded="true" />
+            <element signature="e#1988#1994#0" expanded="true" />
+            <element signature="e#2139#2145#0" expanded="true" />
+            <element signature="e#2145#2151#0" expanded="true" />
+            <element signature="e#2395#2401#0" expanded="true" />
+            <element signature="e#2401#2407#0" expanded="true" />
+            <element signature="e#2649#2655#0" expanded="true" />
+            <element signature="e#2655#2661#0" expanded="true" />
+            <element signature="e#4246#4252#0" expanded="true" />
+            <element signature="e#4252#4258#0" expanded="true" />
+            <element signature="e#4598#4604#0" expanded="true" />
+            <element signature="e#4604#4610#0" expanded="true" />
+            <element signature="e#4755#4761#0" expanded="true" />
+            <element signature="e#4761#4767#0" expanded="true" />
+            <element signature="e#4954#4960#0" expanded="true" />
+            <element signature="e#4960#4966#0" expanded="true" />
+            <element signature="e#5129#5135#0" expanded="true" />
+            <element signature="e#5135#5141#0" expanded="true" />
+            <element signature="e#5405#5411#0" expanded="true" />
+            <element signature="e#5411#5417#0" expanded="true" />
+            <element signature="e#5780#5786#0" expanded="true" />
+            <element signature="e#5786#5792#0" expanded="true" />
+            <element signature="e#6406#6412#0" expanded="true" />
+            <element signature="e#6412#6418#0" expanded="true" />
+            <element signature="e#6537#6543#0" expanded="true" />
+            <element signature="e#6543#6549#0" expanded="true" />
+            <element signature="e#6784#6790#0" expanded="true" />
+            <element signature="e#6790#6796#0" expanded="true" />
+            <element signature="e#7190#7196#0" expanded="true" />
+            <element signature="e#7196#7202#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="68" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-145">
+          <caret line="146" column="32" lean-forward="true" selection-start-line="146" selection-start-column="32" selection-end-line="146" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data_visualize/data_analysis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="234">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/echarts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9129">
+          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/rent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-445">
+          <caret line="244" column="13" selection-start-line="244" selection-start-column="13" selection-end-line="244" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1199" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2017" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/spiders/ershoufang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="82" column="57" selection-start-line="82" selection-start-column="57" selection-end-line="82" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/constants.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#436#739#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/spiders/newhouse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1092">
+          <caret line="36" column="33" lean-forward="true" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="243" column="53" selection-start-line="243" selection-start-column="53" selection-end-line="243" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="103" column="13" lean-forward="true" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data_visualize/ershoufang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8811">
+          <caret line="393" column="6" selection-start-line="393" selection-start-column="6" selection-end-line="393" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

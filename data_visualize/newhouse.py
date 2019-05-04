@@ -25,14 +25,14 @@ class newhouse():
         self.avg_loupan = []
         for city in self.collections:
             self.main_price_range(city)
-            self.second_price_range(city)
-        self.avg_square_meter(self.collections)
-        self.avg_loupan_price(self.collections)
-        self.wuye_type_count(self.collections)
-        self.huxing_count(self.collections)
-        self.square_meter_max_top5(self.collections)
-        self.square_meter_min_top5(self.collections)
-        self.tag_wordcloud(self.collections)
+            # self.second_price_range(city)
+        # self.avg_square_meter(self.collections)
+        # self.avg_loupan_price(self.collections)
+        # self.wuye_type_count(self.collections)
+        # self.huxing_count(self.collections)
+        # self.square_meter_max_top5(self.collections)
+        # self.square_meter_min_top5(self.collections)
+        # self.tag_wordcloud(self.collections)
 
     # 每平米价位占比
     def main_price_range(self, city):
@@ -49,9 +49,6 @@ class newhouse():
                 range_value.append(
                     collection.find(
                         {
-                            'huxing': {'$ne': ''},
-                            'main_price': {'$ne': -1},
-                            'second_price': {'$ne': -1},
                             'main_price': value,
                             'main_price_desc': '元/平(均价)'
                         }
@@ -60,7 +57,7 @@ class newhouse():
         bar = self.charts.bar(range_key, range_value, city,
                               main_price_range_template.format(city), "单位: 元/m²")
         make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, main_price_range_template.format(city)))
-        print("finished {}  main_price_range".format(city))
+        print("finished {} newhouse main_price_range".format(city))
 
     # 每套房各价位占比
     def second_price_range(self, city):
@@ -77,15 +74,13 @@ class newhouse():
                 range_value.append(
                     collection.find(
                         {
-                            'huxing': {'$ne': ''},
-                            'second_price': {'$ne': -1},
                             'second_price': value,
                         }
                     ).count()
                 )
         bar = self.charts.pie_radius(range_key, range_value, second_price_range_template.format(city))
         make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, second_price_range_template.format(city)))
-        print("finished {}  second_price_range".format(city))
+        print("finished {} newhouse second_price_range".format(city))
 
     # 每平米均价
     def avg_square_meter(self, collections):
@@ -171,7 +166,7 @@ class newhouse():
         fifth_bar = self.charts.bar(fifth_key, fifth_value, "",
                                     fifth_level_avg_square_template, temproary_loss)
         make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, fifth_level_avg_square_template))
-        print("finish count avg square meter price")
+        print("finish newhouse count avg square meter price")
 
     # 每套房均价
     def avg_loupan_price(self, collections):
@@ -392,3 +387,8 @@ class newhouse():
             make_snapshot(snapshot, tag.render(),
                           "{}\\{}.gif".format(save_dir, '{}市新房热门标签'.format(city)))
             print("完成{}市热门标签".format(city))
+
+
+
+if __name__ == '__main__':
+    new = newhouse()

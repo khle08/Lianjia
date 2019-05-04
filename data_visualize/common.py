@@ -1,7 +1,8 @@
 import time
 import pymongo
+import os
 
-base_path = "D:\codes\GraduationProject\data_visualize"
+base_path = os.path.split(os.path.realpath(__file__))[0]
 # 字符串模板
 main_price_range_template = '{}市新房每平米楼盘价位占比分布图'
 second_price_range_template = '{}市每套新房价位占比分布图'
@@ -29,10 +30,10 @@ huxing_count_template = '{}市新房户型占比分布图'
 square_price_max_top5 = '{}市新房每平米最贵top5楼盘'
 square_price_min_top5 = '{}市新房每平米最便宜top5楼盘'
 tag_wordcloud_template = '{}市楼盘标签词云图'
-# 每平米最高统计500000每平米的房价
-max_main_price = 500000
-# 每套房统计最高1亿的价格
-max_second_price = 10000
+# 每平米最高统计400000每平米的房价
+max_main_price = 200000
+# 每套房统计最高统计9000万的价格
+max_second_price = 90000
 # 链家中国新房城市划分
 first_level = ['天津', '青岛', '上海', '郑州', '南京', '沈阳', '重庆', '广州',
                '武汉', '深圳', '长沙', '大连', '成都', '西安', '杭州', '苏州', '东莞', ]
@@ -67,7 +68,7 @@ lianjia_citys['fifth'] = ['凉山', '达州', '汉中', '临高', '保亭', '五
 # 生成每平米价格的范围过滤条件
 def gen_match(price, delta):
     price_range_map = {}
-    for i in range(0, price + delta, delta):
+    for i in range(0, price, delta):
         price_range_map['{}-{}'.format(i, i + delta)] = {
             '$gte': i,
             '$lt': i + delta
@@ -84,7 +85,7 @@ def get_main_price_range(city):
     price = max_main_price
     while price > 1000:
         result = list(collection.find({'main_price': {'$gte': price}}))
-        if result:
+        if result and len(result) > 5:
             if price > 100000:
                 return gen_match(price, 20000)
             if price > 50000:
@@ -105,7 +106,53 @@ def get_second_price_range(city):
     price = max_second_price
     while price > 10:
         result = list(collection.find({'second_price': {'$gte': price}}))
-        if result:
+        # 极少数价格区间去掉
+        if result and len(result) > 5:
+            if price > 5000:
+                return gen_match(price, 1000)
+            if price > 3000:
+                return gen_match(price, 400)
+            if price > 1000:
+                return gen_match(price, 200)
+            if price > 500:
+                return gen_match(price, 70)
+            if price > 200:
+                return gen_match(price, 30)
+            return gen_match(price, 15)
+        price = int(price / 2)
+
+
+# 获取unit_price各区间分布
+def get_unit_price_range(city):
+    client = pymongo.MongoClient()
+    db = 'lianjia_ershoufang' + str(time.strftime('%Y%m%d', time.localtime(time.time())))
+    db = client[db]
+    collection = db[city]
+    price = max_main_price
+    while price > 1000:
+        result = list(collection.find({'unit_price': {'$gte': price}}))
+        if result and len(result) > 5:
+            if price > 100000:
+                return gen_match(price, 15000)
+            if price > 50000:
+                return gen_match(price, 7000)
+            if price > 30000:
+                return gen_match(price, 5000)
+            return gen_match(price, 3000)
+        else:
+            price = int(price / 2)
+
+
+# 获取total_price各区间分布
+def get_total_price_range(city):
+    client = pymongo.MongoClient()
+    db = 'lianjia_ershoufang' + str(time.strftime('%Y%m%d', time.localtime(time.time())))
+    db = client[db]
+    collection = db[city]
+    price = max_second_price
+    while price > 10:
+        result = list(collection.find({'total_price': {'$gte': price}}))
+        if result and len(result) > 5:
             if price > 5000:
                 return gen_match(price, 1000)
             if price > 3000:

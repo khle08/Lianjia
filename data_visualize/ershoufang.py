@@ -29,19 +29,20 @@ class ershoufang():
         self.avg_price_square_meter = []
         # 每套房均价
         self.avg_loupan = []
+        self.queue = self.collections
         for city in self.collections:
             self.unit_price_range(city)
             self.total_price_range(city)
-        self.avg_square_meter(self.collections)
-        self.avg_loupan_price(self.collections)
-        self.square_meter_max_top5(self.collections)
-        self.square_meter_min_top5(self.collections)
-        self.xiaoqu_wordcloud(self.collections)
-        self.position_wordcloud(self.collections)
+        # self.avg_square_meter(self.collections)
+        # self.avg_loupan_price(self.collections)
+        # self.square_meter_max_top5(self.collections)
+        # self.square_meter_min_top5(self.collections)
+        # self.xiaoqu_wordcloud(self.collections)
+        # self.position_wordcloud(self.collections)
 
     # 每平米价位占比
     def unit_price_range(self, city):
-        match = get_main_price_range(city)
+        match = get_unit_price_range(city)
         save_dir = self.path + "\\unit_price_range"
         if not os.path.exists(save_dir):
             os.mkdir(save_dir)
@@ -54,8 +55,6 @@ class ershoufang():
                 range_value.append(
                     collection.find(
                         {
-                            'unit_price': {'$ne': -1},
-                            'total_price': {'$ne': -1},
                             'unit_price': value,
                         }
                     ).count()
@@ -63,11 +62,11 @@ class ershoufang():
         bar = self.charts.bar(range_key, range_value, city,
                               self.unit_price_template.format(city), "单位: 元/m²")
         make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.unit_price_template.format(city)))
-        print("完成二手房每平米价位占比作图".format(city))
+        print("完成{}二手房每平米价位占比作图".format(city))
 
     # 每套房各价位占比
     def total_price_range(self, city):
-        match = get_second_price_range(city)
+        match = get_total_price_range(city)
         range_key = []
         range_value = []
         save_dir = self.path + "\\total_price_range"
@@ -80,15 +79,13 @@ class ershoufang():
                 range_value.append(
                     collection.find(
                         {
-                            'huxing': {'$ne': ''},
-                            'total_price': {'$ne': -1},
                             'total_price': value,
                         }
                     ).count()
                 )
         bar = self.charts.pie_radius(range_key, range_value, self.total_price_template.format(city))
         make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.total_price_template.format(city)))
-        print("完成二手房每套房价位占比作图".format(city))
+        print("完成{}二手房每套房价位占比作图".format(city))
 
     # 每平米均价
     def avg_square_meter(self, collections):
@@ -190,7 +187,7 @@ class ershoufang():
         fifth_bar = self.charts.bar(fifth_key, fifth_value, "",
                                     '五线城市二手房每平米均价', self.yuan_per_square)
         make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, '五线城市二手房每平米均价'))
-        print("完成二手房每平米均价作图")
+        print("完成链家二手房各城市每平米均价作图")
 
     # 每套房均价
     def avg_loupan_price(self, collections):
@@ -293,7 +290,7 @@ class ershoufang():
         fifth_bar = self.charts.bar(fifth_key, fifth_value, "",
                                     '五线城市二手房每套均价', self.ten_thousand_per_loupan)
         make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, '五线城市二手房每套均价'))
-        print("完成二手房每套均价作图")
+        print("完成链家各城市二手房每套均价作图")
 
     # 每平米最贵的top5楼盘
     def square_meter_max_top5(self, collections):
@@ -316,7 +313,7 @@ class ershoufang():
                     key = [i['position'] for i in max_top5]
                 value = [i['unit_price'] for i in max_top5]
             max_top5_scatter = self.charts.scatter_spliteline(key, value, city,
-                                                                   self.square_price_max_top5.format(city))
+                                                              self.square_price_max_top5.format(city))
             make_snapshot(snapshot, max_top5_scatter.render(),
                           "{}\\{}.gif".format(save_dir, self.square_price_max_top5.format(city)))
             print('完成 {} 每平米最贵top5小区作图'.format(city))
@@ -397,3 +394,6 @@ class ershoufang():
                           "{}\\{}.gif".format(save_dir, '{}市二手房热门地段'.format(city)))
             print("完成{}市二手房热门地段词云".format(city))
 
+
+if __name__ == '__main__':
+    house = ershoufang()

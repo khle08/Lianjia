@@ -19,12 +19,12 @@ class rent():
         self.db = self.client[db]
         self.collections = self.db.list_collection_names()
         self.avg_price = []
-        self.source_percentage(self.collections)
-        self.brandtop5_avg_price(self.collections)
-        self.avg_price_rent(self.collections)
-        self.rent_max_top5(self.collections)
+        # self.source_percentage(self.collections)
+        # self.brandtop5_avg_price(self.collections)
+        # self.avg_price_rent(self.collections)
+        # self.rent_max_top5(self.collections)
         self.rent_min_top5(self.collections)
-        self.tag_wordcloud(self.collections)
+        # self.tag_wordcloud(self.collections)
 
     #  每个品牌房源占比
     def source_percentage(self, collections):
@@ -239,6 +239,7 @@ class rent():
                 value = [i['price'] for i in min_top5]
             min_top5_scatter = self.charts.scatter_spliteline(key, value, city,
                                                               '{}市租房价格最低top5'.format(city))
+            print("{}\\{}.gif".format(save_dir, '{}市租房价格最低top5'.format(city)))
             make_snapshot(snapshot, min_top5_scatter.render(),
                           "{}\\{}.gif".format(save_dir, '{}市租房价格最低top5'.format(city)))
             print('完成 {} 市租房价格最低top5作图'.format(city))
@@ -270,3 +271,6 @@ class rent():
                           "{}\\{}.gif".format(save_dir, '{}市租房热门标签'.format(city)))
             print("完成{}市租房热门标签".format(city))
 
+
+if __name__ == '__main__':
+    house = rent()
