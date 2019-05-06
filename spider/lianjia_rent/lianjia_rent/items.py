@@ -10,7 +10,6 @@ import scrapy
 
 class LianjiaRentItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
     house = scrapy.Field()
     zufang_url = scrapy.Field()
     city = scrapy.Field()

@@ -1,3 +1,5 @@
+# /user/bin/python
+# coding=utf-8
 from pyecharts.charts import Page, Pie, Bar, WordCloud, Scatter, Funnel
 from pyecharts import options as opts
 from pyecharts.globals import SymbolType, ThemeType
@@ -37,11 +39,8 @@ class charts():
     def pie_radius(self, key, value, title) -> Pie:
         c = (
             Pie()
-                .add(
-                "",
-                [list(z) for z in zip(key, value)],
-                radius=["40%", "75%"],
-            )
+                .add("", [list(z) for z in zip(key, value)], radius=["40%", "75%"],
+                     )
                 .set_global_opts(
                 title_opts=opts.TitleOpts(title=title),
                 legend_opts=opts.LegendOpts(
@@ -57,20 +56,15 @@ class charts():
         v = key
         c = (
             Pie()
-                .add(
-                "",
-                [list(z) for z in zip(v, value)],
-                radius=["30%", "75%"],
-                center=["50%", "50%"],
-                rosetype="area",
-            ).set_global_opts(title_opts=opts.TitleOpts(title=title))
+                .add("", [list(z) for z in zip(v, value)], radius=["30%", "75%"], center=["50%", "50%"],
+                     rosetype="area",
+                     ).set_global_opts(title_opts=opts.TitleOpts(title=title))
         )
         return c
 
     # 词云图
     def wordcloud_diamond(self, word, title) -> WordCloud:
-        shape = [SymbolType.ARROW, SymbolType.DIAMOND, SymbolType.RECT,
-                 SymbolType.ROUND_RECT, SymbolType.TRIANGLE]
+        shape = [SymbolType.ARROW, SymbolType.DIAMOND, SymbolType.RECT, SymbolType.ROUND_RECT, SymbolType.TRIANGLE]
         c = (
             WordCloud()
                 .add("", word, word_size_range=[20, 100], shape=random.choice(shape))
@@ -96,25 +90,18 @@ class charts():
         c = (
             Scatter()
                 .add_xaxis(key)
-                # .add_yaxis("商家A", Faker.values())
                 .add_yaxis(city, value)
-                .set_global_opts(
-                title_opts=opts.TitleOpts(title=title),
-                visualmap_opts=opts.VisualMapOpts(type_="size", max_=150, min_=20),
-            )
+                .set_global_opts(title_opts=opts.TitleOpts(title=title),
+                                 visualmap_opts=opts.VisualMapOpts(type_="size", max_=150, min_=20),
+                                 )
         )
-        # c.render("scrtter_visual_map.html")
-        # make_snapshot(snapshot, c.render(), "scatter_visual_map_color.gif")
         return c
 
     # 漏斗图
     def funnel_label_inside(self, key, value, title) -> Funnel:
         c = (
             Funnel()
-                .add(
-                "租房",
-                [list(z) for z in zip(key, value)],
-                label_opts=opts.LabelOpts(position="inside"),
-            ).set_global_opts(title_opts=opts.TitleOpts(title=title))
+                .add("租房", [list(z) for z in zip(key, value)], label_opts=opts.LabelOpts(position="inside"),
+                     ).set_global_opts(title_opts=opts.TitleOpts(title=title))
         )
         return c

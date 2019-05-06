@@ -13,7 +13,7 @@ from lianjia.search import es_search
 
 app = Flask(__name__)
 # csrf保护密匙
-app.config['SECRET_KEY'] = 'hard to guess string'
+app.config['SECRET_KEY'] = 'dfjhiFHBCUDHBVdbvbHXbfgnghklVJfuhkbfgv'
 app.config['DEBUG'] = True
 bootstrap = Bootstrap(app)
 moment = Moment(app)
@@ -25,7 +25,6 @@ moment = Moment(app)
 def index():
     form = SearchForm()
     search = ''
-    search_type = 0
     search_result = {}
     search_flag = 0
     if form.validate_on_submit():
@@ -40,10 +39,12 @@ def index():
                            search_result=search_result, search_flag=search_flag)
 
 
+# 新房分析中心
 @app.route('/newhouse', methods=['GET', 'POST'])
 def newhouse():
     form = NewhouseDropDownListForm()
     data = []
+    # is_submit字段用于前端判断是否提交了表单
     is_submit = 0
     if form.validate_on_submit():
         is_submit = 1
@@ -56,6 +57,7 @@ def newhouse():
     return render_template('newhouse.html', form=form, data=data, is_submit=is_submit)
 
 
+# 二手房分析中心
 @app.route('/ershoufang', methods=['GET', 'POST'])
 def ershoufang():
     form = ErshoufangDropDownListForm()

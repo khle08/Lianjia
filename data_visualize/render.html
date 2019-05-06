@@ -7,128 +7,61 @@
 
 </head>
 <body>
-    <div id="3215d681bb4b46d89689e6555421a742" style="width:900px; height:500px;"></div>
+    <div id="2801e91acb904149b67a4e0dfb541726" style="width:900px; height:500px;"></div>
     <script>
-        var chart_3215d681bb4b46d89689e6555421a742 = echarts.init(
-            document.getElementById('3215d681bb4b46d89689e6555421a742'), 'white', {renderer: 'canvas'});
-        var option_3215d681bb4b46d89689e6555421a742 = {
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
+        var chart_2801e91acb904149b67a4e0dfb541726 = echarts.init(
+            document.getElementById('2801e91acb904149b67a4e0dfb541726'), 'dark', {renderer: 'canvas'});
+        var option_2801e91acb904149b67a4e0dfb541726 = {
     "series": [
         {
-            "type": "pie",
+            "type": "bar",
             "data": [
-                {
-                    "name": "0-70\u4e07",
-                    "value": 89
-                },
-                {
-                    "name": "70-140\u4e07",
-                    "value": 709
-                },
-                {
-                    "name": "140-210\u4e07",
-                    "value": 1107
-                },
-                {
-                    "name": "210-280\u4e07",
-                    "value": 526
-                },
-                {
-                    "name": "280-350\u4e07",
-                    "value": 231
-                },
-                {
-                    "name": "350-420\u4e07",
-                    "value": 87
-                },
-                {
-                    "name": "420-490\u4e07",
-                    "value": 39
-                },
-                {
-                    "name": "490-560\u4e07",
-                    "value": 17
-                },
-                {
-                    "name": "560-630\u4e07",
-                    "value": 5
-                },
-                {
-                    "name": "630-700\u4e07",
-                    "value": 12
-                },
-                {
-                    "name": "700-770\u4e07",
-                    "value": 2
-                }
+                1,
+                1,
+                2,
+                1,
+                1,
+                1,
+                1,
+                5,
+                6,
+                1,
+                20,
+                3,
+                3,
+                12,
+                87,
+                44,
+                23,
+                1,
+                1,
+                1,
+                5,
+                12,
+                1,
+                7,
+                25,
+                118,
+                38,
+                1
             ],
-            "radius": [
-                "40%",
-                "75%"
-            ],
-            "center": [
-                "50%",
-                "50%"
-            ],
+            "barCategoryGap": "20%",
             "label": {
                 "show": true,
                 "position": "top",
-                "fontSize": 12,
-                "formatter": "{b}: {c}"
-            },
-            "rippleEffect": {
-                "show": true,
-                "brushType": "stroke",
-                "scale": 2.5,
-                "period": 4
+                "fontSize": 12
             }
         }
     ],
     "legend": [
         {
             "data": [
-                "0-70\u4e07",
-                "70-140\u4e07",
-                "140-210\u4e07",
-                "210-280\u4e07",
-                "280-350\u4e07",
-                "350-420\u4e07",
-                "420-490\u4e07",
-                "490-560\u4e07",
-                "560-630\u4e07",
-                "630-700\u4e07",
-                "700-770\u4e07"
+                ""
             ],
-            "selected": {},
-            "show": true,
-            "left": "2%",
-            "top": "15%",
-            "orient": "vertical"
+            "selected": {
+                "": true
+            },
+            "show": false
         }
     ],
     "tooltip": {
@@ -143,13 +76,111 @@
         },
         "borderWidth": 0
     },
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "1\u5ba4/4\u5ba4",
+                "4\u5ba4/6\u5ba4",
+                "1\u5ba4/3\u5ba4/4\u5ba4",
+                "2\u5ba4/4\u5ba4",
+                "4\u5ba4/8\u5ba4",
+                "3\u5ba4/4\u5ba4/6\u5ba4/7\u5ba4",
+                "2\u5ba4/3\u5ba4/5\u5ba4",
+                "3\u5ba4/4\u5ba4/5\u5ba4",
+                "1\u5ba4/2\u5ba4/3\u5ba4",
+                "7\u5ba4",
+                "1\u5ba4/2\u5ba4",
+                "6\u5ba4",
+                "1\u5ba4/3\u5ba4",
+                "5\u5ba4",
+                "3\u5ba4",
+                "4\u5ba4",
+                "2\u5ba4",
+                "3\u5ba4/4\u5ba4/5\u5ba4/7\u5ba4",
+                "3\u5ba4/4\u5ba4/5\u5ba4/6\u5ba4",
+                "2\u5ba4/3\u5ba4/4\u5ba4/5\u5ba4",
+                "5\u5ba4/6\u5ba4",
+                "2\u5ba4/3\u5ba4/4\u5ba4",
+                "1\u5ba4/2\u5ba4/3\u5ba4/4\u5ba4",
+                "4\u5ba4/5\u5ba4",
+                "2\u5ba4/3\u5ba4",
+                "3\u5ba4/4\u5ba4",
+                "1\u5ba4",
+                "0\u5ba4"
+            ]
+        }
+    ],
     "title": [
         {
-            "text": "\u91d1\u534e\u5e02\u4e8c\u624b\u623f\u6bcf\u5957\u623f\u4ef7\u4f4d\u5360\u6bd4\u5206\u5e03\u56fe"
+            "text": "\u4f5b\u5c71\u5e02\u65b0\u623f\u6237\u578b\u5360\u6bd4\u5206\u5e03\u56fe"
         }
-    ]
+    ],
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "save as image",
+                "type": "png"
+            },
+            "restore": {
+                "show": true,
+                "title": "restore"
+            },
+            "dataView": {
+                "show": true,
+                "title": "data view",
+                "readOnly": false
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "data zoom",
+                    "back": "data zoom restore"
+                }
+            }
+        }
+    }
 };
-        chart_3215d681bb4b46d89689e6555421a742.setOption(option_3215d681bb4b46d89689e6555421a742);
+        chart_2801e91acb904149b67a4e0dfb541726.setOption(option_2801e91acb904149b67a4e0dfb541726);
     </script>
 </body>
 </html>

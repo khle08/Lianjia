@@ -1,3 +1,10 @@
-data = []
 import time
-print(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(1551487852)))
+import os
+while True:
+    data = []
+    filename = 'D:\\xxx.txt'
+    if os.path.isfile(filename):
+        data.append('exist')
+    else:
+        data.append('not exist')
+    time.sleep(600)

@@ -5,7 +5,7 @@ from lianjia.constants import *
 
 
 class SearchForm(FlaskForm):
-    search_type = SelectField('请选择房产类型(默认搜索全部数据):',
+    search_type = SelectField('请选择房产类型:',
                               validators=[DataRequired()], coerce=int,
                               choices=search_type)
     search = StringField('请输入要搜索的房产数据:', validators=[DataRequired()])
