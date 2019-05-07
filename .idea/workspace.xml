@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="新增数据分析echarts模块">
-      <change afterPath="$PROJECT_DIR$/lianjia/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/echarts.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/echarts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分一线城市及新一线城市新房每平米均价.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分一线城市及新一线城市新房每平米均价.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线内陆城市新房每平米均价.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线内陆城市新房每平米均价.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线沿海城市新房每平米均价.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/avg_square_meter/链家部分二线沿海城市新房每平米均价.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/南京市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/南京市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大理市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大理市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大连市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/大连市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/定安市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/定安市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/成都市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/成都市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/昆明市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/昆明市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/武汉市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/武汉市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/海口市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/海口市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/深圳市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/深圳市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/湖州市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/湖州市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/漳州市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/漳州市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/石家庄市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/石家庄市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/衡水市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/衡水市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/邢台市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/邢台市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/重庆市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/重庆市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/镇江市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/镇江市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/陵水市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/陵水市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/青岛市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/青岛市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/黄冈市新房户型占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/huxing_count/黄冈市新房户型占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/泉州市新房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/泉州市新房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/海口市新房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/海口市新房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/重庆市新房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/重庆市新房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/青岛市新房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/青岛市新房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/黄冈市新房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse/main_price_range/黄冈市新房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/render.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/static/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/static/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/templates/ershoufang.html" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/templates/ershoufang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/templates/newhouse.html" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/templates/newhouse.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/templates/rent.html" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/templates/rent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/common.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/items.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,18 +29,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data_visualize/newhouse.py">
+        <entry file="file://$PROJECT_DIR$/lianjia/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
-              <caret line="315" column="41" selection-start-line="315" selection-start-column="41" selection-end-line="315" selection-end-column="41" />
+            <state relative-caret-position="-483">
+              <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#1619#1919#0" />
-                <element signature="e#3246#7588#0" />
-                <element signature="e#3717#5704#0" />
-                <element signature="e#3779#4466#0" />
-                <element signature="e#13250#13758#0" />
-                <element signature="e#14326#15371#0" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -192,7 +146,20 @@
             <path>
               <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
-              <item name="data_visualize" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_ershoufang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GraduationProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GraduationProject" type="462c0819:PsiDirectoryNode" />
+              <item name="spider" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_ershoufang" type="462c0819:PsiDirectoryNode" />
+              <item name="lianjia_ershoufang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -241,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newhouse">
+  <component name="RunManager" selected="Python.app">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -264,19 +231,22 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ershoufang" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lianjia" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/ershoufang.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lianjia/app.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -287,6 +257,9 @@
       <module name="GraduationProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -294,25 +267,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/newhouse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="rent" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="GraduationProject" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data_visualize" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data_visualize/rent.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,7 +312,29 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="GraduationProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -366,19 +342,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.newhouse" />
+      <item itemvalue="Python.app" />
+      <item itemvalue="Python.run" />
       <item itemvalue="Python.run (1)" />
       <item itemvalue="Python.run (2)" />
-      <item itemvalue="Python.ershoufang" />
-      <item itemvalue="Python.newhouse" />
-      <item itemvalue="Python.rent" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.newhouse" />
-        <item itemvalue="Python.rent" />
-        <item itemvalue="Python.ershoufang" />
-        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.run (2)" />
+        <item itemvalue="Python.run (1)" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.newhouse" />
       </list>
     </recent_temporary>
   </component>
@@ -401,7 +377,9 @@
       <workItem from="1556854511288" duration="48941000" />
       <workItem from="1556910912528" duration="28630000" />
       <workItem from="1556974435976" duration="27094000" />
-      <workItem from="1557098045580" duration="6207000" />
+      <workItem from="1557098045580" duration="7038000" />
+      <workItem from="1557114171880" duration="3118000" />
+      <workItem from="1557138393582" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="update lianjia spider">
       <created>1556609653127</created>
@@ -428,7 +406,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262661000" />
+    <option name="totallyTimeSpent" value="268513000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,14 +419,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23373677" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49707174" visible="true" weight="0.3885246" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49707174" weight="0.3852459" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3974152" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.328594" />
@@ -480,14 +457,14 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/GraduationProject$pie.coverage" NAME="pie Coverage Results" MODIFIED="1556551496309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$list.coverage" NAME="list Coverage Results" MODIFIED="1556853049292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1556899767276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run__2_.coverage" NAME="run (2) Coverage Results" MODIFIED="1557130647541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent" />
     <SUITE FILE_PATH="coverage/GraduationProject$mongo.coverage" NAME="mongo Coverage Results" MODIFIED="1556606746138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dao" />
     <SUITE FILE_PATH="coverage/GraduationProject$data_analysis.coverage" NAME="data_analysis Coverage Results" MODIFIED="1556803599843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1557109251174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run__1_.coverage" NAME="run (1) Coverage Results" MODIFIED="1557114583572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse" />
     <SUITE FILE_PATH="coverage/GraduationProject$common.coverage" NAME="common Coverage Results" MODIFIED="1556885557340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$app.coverage" NAME="app Coverage Results" MODIFIED="1557058421577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
+    <SUITE FILE_PATH="coverage/GraduationProject$app.coverage" NAME="app Coverage Results" MODIFIED="1557138460358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
     <SUITE FILE_PATH="coverage/GraduationProject$rent.coverage" NAME="rent Coverage Results" MODIFIED="1557112314127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
-    <SUITE FILE_PATH="coverage/GraduationProject$run.coverage" NAME="run Coverage Results" MODIFIED="1556899751985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
+    <SUITE FILE_PATH="coverage/GraduationProject$run.coverage" NAME="run Coverage Results" MODIFIED="1557114578726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang" />
     <SUITE FILE_PATH="coverage/GraduationProject$newhouse.coverage" NAME="newhouse Coverage Results" MODIFIED="1557112554441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$ershoufang.coverage" NAME="ershoufang Coverage Results" MODIFIED="1556887963213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
     <SUITE FILE_PATH="coverage/GraduationProject$test.coverage" NAME="test Coverage Results" MODIFIED="1556894434552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lianjia" />
@@ -496,9 +473,6 @@
     <SUITE FILE_PATH="coverage/GraduationProject$mongo__1_.coverage" NAME="mongo (1) Coverage Results" MODIFIED="1556607576934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_visualize" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lianjia/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lianjia/templates/test.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -657,11 +631,6 @@
         <state relative-caret-position="-393" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2017" />
@@ -735,13 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -848,30 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lianjia/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
-          <caret line="61" column="12" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1170" />
@@ -881,13 +819,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -938,6 +869,54 @@
             <element signature="e#3779#4466#0" />
             <element signature="e#13250#13758#0" />
             <element signature="e#14326#15371#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2512" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lianjia/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="73" column="22" selection-start-line="73" selection-start-column="22" selection-end-line="73" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
