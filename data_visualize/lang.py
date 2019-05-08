@@ -1,0 +1,6 @@
+unit_price_template = '{}市二手房每平米楼盘价位占比分布图'
+total_price_template = '{}市二手房每套房价位占比分布图'
+per_square = '元/平'
+per_loupan = '万/套'
+square_price_max_top5 = '{}市二手房每平米最贵top5小区'
+square_price_min_top5 = '{}市二手房每平米最便宜top5小区'

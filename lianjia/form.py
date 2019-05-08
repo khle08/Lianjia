@@ -15,7 +15,7 @@ class SearchForm(FlaskForm):
 class NewhouseDropDownListForm(FlaskForm):
     city = SelectField('请选择城市:', validators=[DataRequired()], coerce=int,
                        choices=newhouse_city_form)
-    analysis = SelectField('请选择统计维度:', validators=[DataRequired()], coerce=int,
+    analysis = SelectField('请选择分析视角:', validators=[DataRequired()], coerce=int,
                            choices=newhouse_analysis_form)
     submit = SubmitField('查询')
 
@@ -23,7 +23,7 @@ class NewhouseDropDownListForm(FlaskForm):
 class ErshoufangDropDownListForm(FlaskForm):
     city = SelectField('请选择城市:', validators=[DataRequired()], coerce=int,
                        choices=ershoufang_city_form)
-    analysis = SelectField('请选择统计维度:', validators=[DataRequired()], coerce=int,
+    analysis = SelectField('请选择分析视角:', validators=[DataRequired()], coerce=int,
                            choices=ershoufang_analysis_form)
     submit = SubmitField('查询')
 
@@ -31,6 +31,6 @@ class ErshoufangDropDownListForm(FlaskForm):
 class RentDropDownListForm(FlaskForm):
     city = SelectField('请选择城市:', validators=[DataRequired()], coerce=int,
                        choices=rent_city_form)
-    analysis = SelectField('请选择统计维度:', validators=[DataRequired()], coerce=int,
+    analysis = SelectField('请选择分析视角:', validators=[DataRequired()], coerce=int,
                            choices=rent_analysis_form)
     submit = SubmitField('查询')

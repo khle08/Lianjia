@@ -33,12 +33,12 @@ class ershoufang():
         for city in self.collections:
             self.unit_price_range(city)
             self.total_price_range(city)
-        # self.avg_square_meter(self.collections)
-        # self.avg_loupan_price(self.collections)
-        # self.square_meter_max_top5(self.collections)
-        # self.square_meter_min_top5(self.collections)
-        # self.xiaoqu_wordcloud(self.collections)
-        # self.position_wordcloud(self.collections)
+        self.avg_square_meter(self.collections)
+        self.avg_loupan_price(self.collections)
+        self.square_meter_max_top5(self.collections)
+        self.square_meter_min_top5(self.collections)
+        self.xiaoqu_wordcloud(self.collections)
+        self.position_wordcloud(self.collections)
 
     # 每平米价位占比
     def unit_price_range(self, city):

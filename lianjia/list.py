@@ -2,7 +2,6 @@ from lianjia.constants import *
 import os
 from data_visualize.common import base_path
 
-
 class newhouse_list():
     def __init__(self, city, analysis):
         data = []
@@ -123,8 +122,10 @@ class ershoufang_list():
     # 每平米价位占比
     def unit_price_range(self, city):
         city_map = get_city_map('ershoufang')
+        print(city_map)
         data = []
         data.append(self.img_base_path + "/unit_price_range/{}市二手房每平米楼盘价位占比分布图.gif".format(city_map[city]))
+        print(self.img_base_path + "/unit_price_range/{}市二手房每平米楼盘价位占比分布图.gif".format(city_map[city]))
         return data
 
     # 每套房各价位占比

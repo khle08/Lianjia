@@ -69,6 +69,7 @@ def ershoufang():
         city = form.city.data
         analysis = form.analysis.data
         return_data = ershoufang_list(city, analysis)
+        print(return_data)
         data = return_data.parse()
     else:
         print("false")

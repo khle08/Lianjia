@@ -23,16 +23,16 @@ class newhouse():
         self.avg_price_square_meter = []
         # 每套房均价
         self.avg_loupan = []
-        # for city in self.collections:
-        #     self.main_price_range(city)
-        # #     # self.second_price_range(city)
-        # self.avg_square_meter(self.collections)
-        # self.avg_loupan_price(self.collections)
-        # self.wuye_type_count(self.collections)
+        for city in self.collections:
+            self.main_price_range(city)
+            self.second_price_range(city)
+        self.avg_square_meter(self.collections)
+        self.avg_loupan_price(self.collections)
+        self.wuye_type_count(self.collections)
         self.huxing_count(self.collections)
-        # self.square_meter_max_top5(self.collections)
-        # self.square_meter_min_top5(self.collections)
-        # self.tag_wordcloud(self.collections)
+        self.square_meter_max_top5(self.collections)
+        self.square_meter_min_top5(self.collections)
+        self.tag_wordcloud(self.collections)
 
     # 每平米价位占比
     def main_price_range(self, city):

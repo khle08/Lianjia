@@ -1,25 +1,14 @@
-from example.commons import Faker
-from pyecharts import options as opts
-from pyecharts.charts import Funnel, Page
-from pyecharts.render import make_snapshot
-# 使用 snapshot-selenium 渲染图片
-from snapshot_selenium import snapshot
-
-
-def funnel_label_inside(key,value,title) -> Funnel:
-
-    c = (
-        Funnel()
-        .add(
-            "商品",
-            [list(z) for z in zip(key, value)],
-            label_opts=opts.LabelOpts(position="inside"),
-        )
-        .set_global_opts(title_opts=opts.TitleOpts(title=title))
-    )
-    make_snapshot(snapshot, c.render(),
-                  "Funnel.gif")
-    return c
-key = ['Locals路客', '链家', '寓艺公寓', '馨馨宾馆', '华舒酒店', '可可酒店', '美人鱼酒店公寓', '遇见青苹果', '德联租房', '郑州1+公寓']
-value = [5083, 3102, 2300, 2250, 2200, 2050, 2000, 1950, 1460, 1450]
-funnel_label_inside(key,value,'aaa')
+dict = {
+    '河南省': 100,
+    '湖北省': 120,
+    '开发区': 130,
+    '文区开发区': 140,
+    '郑州市': 150,
+    '洛阳市': 160,
+    '开封市': 170
+}
+temp = {}
+for key, value in dict.items():
+    if key[-3:] == '开发区' and key[-1] == '省':
+        dict.pop(key)
+print(dict)

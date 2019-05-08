@@ -19,12 +19,12 @@ class rent():
         self.db = self.client[db]
         self.collections = self.db.list_collection_names()
         self.avg_price = []
-        # self.source_percentage(self.collections)
-        # self.brandtop5_avg_price(self.collections)
-        # self.avg_price_rent(self.collections)
-        # self.rent_max_top5(self.collections)
+        self.source_percentage(self.collections)
+        self.brandtop5_avg_price(self.collections)
+        self.avg_price_rent(self.collections)
+        self.rent_max_top5(self.collections)
         self.rent_min_top5(self.collections)
-        # self.tag_wordcloud(self.collections)
+        self.tag_wordcloud(self.collections)
 
     #  每个品牌房源占比
     def source_percentage(self, collections):
