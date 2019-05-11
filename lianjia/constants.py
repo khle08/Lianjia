@@ -1,7 +1,9 @@
 import pymongo
 import time
+import os
 
 ershoufang_db = ''
+web_static_base_path = os.path.split(os.path.realpath(__file__))[0] + "\\static"
 
 
 def get_city_form(type):

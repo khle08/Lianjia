@@ -1,15 +1,25 @@
 import threading
-from spider.lianjia_ershoufang.lianjia_ershoufang.run import run_ershoufang
-from spider.lianjia_newhouse.lianjia_newhouse.run import run_newhouse
-from spider.lianjia_rent.lianjia_rent.run import run_rent
 import os
+import logging
 
 
-def crawl_lianjia():
+def crawl_ershoufang():
+    ershoufang_dir = os.chdir('lianjia_ershoufang')
+    logging.info('成功进入{}'.format(os.getcwd()))
+    ershoufang_crawl = os.system('scrapy crawl ershoufang')
+
+
+
+def crawl_newhouse():
+    newhouse_dir = os.chdir('lianjia_newhouse')
+    logging.info('成功进入{}'.format(os.getcwd()))
+    newhouse_crawl = os.system('scrapy crawl newhouse')
+
+
+def crawl_rent():
+    rent_dir = os.chdir('lianjia_rent')
+    rent_crawl = os.system('scrapy crawl rent')
+    logging.info('成功进入{}'.format(os.getcwd()))
     # ershoufang = threading.Thread(target=run_ershoufang, name='二手房')
     # new_house = threading.Thread(target=run_newhouse, name='新房')
     # rent_house = threading.Thread(target=run_rent, name='租房')
-    # ershoufang.start()
-    # new_house.start()
-    # rent_house.start()
-    print("os.path.realpath(__file__)=%s" % os.path.realpath(__file__))

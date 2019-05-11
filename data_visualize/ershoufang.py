@@ -30,11 +30,11 @@ class ershoufang():
         # 每套房均价
         self.avg_loupan = []
         self.queue = self.collections
-        for city in self.collections:
-            self.unit_price_range(city)
-            self.total_price_range(city)
-        self.avg_square_meter(self.collections)
-        self.avg_loupan_price(self.collections)
+        # for city in self.collections:
+        #     self.unit_price_range(city)
+        #     self.total_price_range(city)
+        # self.avg_square_meter(self.collections)
+        # self.avg_loupan_price(self.collections)
         self.square_meter_max_top5(self.collections)
         self.square_meter_min_top5(self.collections)
         self.xiaoqu_wordcloud(self.collections)

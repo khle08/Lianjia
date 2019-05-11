@@ -1,8 +1,9 @@
 import time
 import pymongo
 import os
+from lianjia.constants import *
 
-base_path = os.path.split(os.path.realpath(__file__))[0]
+base_path = web_static_base_path
 # 字符串模板
 main_price_range_template = '{}市新房每平米楼盘价位占比分布图'
 second_price_range_template = '{}市每套新房价位占比分布图'

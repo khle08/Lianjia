@@ -19,9 +19,9 @@ class rent():
         self.db = self.client[db]
         self.collections = self.db.list_collection_names()
         self.avg_price = []
-        self.source_percentage(self.collections)
-        self.brandtop5_avg_price(self.collections)
-        self.avg_price_rent(self.collections)
+        # self.source_percentage(self.collections)
+        # self.brandtop5_avg_price(self.collections)
+        # self.avg_price_rent(self.collections)
         self.rent_max_top5(self.collections)
         self.rent_min_top5(self.collections)
         self.tag_wordcloud(self.collections)
@@ -43,7 +43,6 @@ class rent():
                  {'$sort': {'brand_count': -1}}
                  ]
             ))
-            print(result)
             if result:
                 if len(result) > 7:
                     six = result[:7]
@@ -57,8 +56,6 @@ class rent():
                 else:
                     key = [i['_id'] for i in result]
                     value = [i['brand_count'] for i in result]
-            print(key)
-            print(value)
             rose = self.charts.pie_rosetype(key, value, '{}市链家租房来源'.format(city))
             make_snapshot(snapshot, rose.render(),
                           "{}\\{}.gif".format(save_dir, '{}市链家租房来源'.format(city)))
