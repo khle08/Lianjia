@@ -4,70 +4,34 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
             <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/themes/macarons.js"></script>
 
 </head>
 <body>
-    <div id="f9fc2c00fef34f578f79c32b8db0b662" style="width:900px; height:500px;"></div>
+    <div id="9d9868d8d7214fd781d35f4dca09d14f" style="width:900px; height:500px;"></div>
     <script>
-        var chart_f9fc2c00fef34f578f79c32b8db0b662 = echarts.init(
-            document.getElementById('f9fc2c00fef34f578f79c32b8db0b662'), 'white', {renderer: 'canvas'});
-        var option_f9fc2c00fef34f578f79c32b8db0b662 = {
-    "color": [
-        "#c23531",
-        "#2f4554",
-        "#61a0a8",
-        "#d48265",
-        "#749f83",
-        "#ca8622",
-        "#bda29a",
-        "#6e7074",
-        "#546570",
-        "#c4ccd3",
-        "#f05b72",
-        "#ef5b9c",
-        "#f47920",
-        "#905a3d",
-        "#fab27b",
-        "#2a5caa",
-        "#444693",
-        "#726930",
-        "#b2d235",
-        "#6d8346",
-        "#ac6767",
-        "#1d953f",
-        "#6950a1",
-        "#918597"
-    ],
+        var chart_9d9868d8d7214fd781d35f4dca09d14f = echarts.init(
+            document.getElementById('9d9868d8d7214fd781d35f4dca09d14f'), 'macarons', {renderer: 'canvas'});
+        var option_9d9868d8d7214fd781d35f4dca09d14f = {
     "series": [
         {
-            "type": "scatter",
-            "name": "\u8861\u6c34",
-            "symbolSize": 10,
+            "type": "bar",
+            "name": "\u6dc4\u535a",
             "data": [
-                [
-                    "\u91d1\u7816\u7f26\u6c99\u534a\u5c9b",
-                    45000
-                ],
-                [
-                    "\u5965\u56ed\u7ff0\u6797\u540d\u82d1",
-                    40000
-                ],
-                [
-                    "\u878d\u521b\u7ea2\u5c9b\u58f9\u53f7\u9662",
-                    40000
-                ],
-                [
-                    "\u4e3d\u6676\u5fa1\u7b51",
-                    37000
-                ],
-                [
-                    "\u5929\u9f50\u96c5\u8bda\u540d\u7b51",
-                    35000
-                ]
+                5,
+                189,
+                878,
+                1072,
+                480,
+                118,
+                51,
+                38,
+                29
             ],
+            "barCategoryGap": "20%",
             "label": {
                 "show": true,
-                "position": "right",
+                "position": "top",
                 "fontSize": 12
             }
         }
@@ -75,12 +39,12 @@
     "legend": [
         {
             "data": [
-                "\u8861\u6c34"
+                "\u6dc4\u535a"
             ],
             "selected": {
-                "\u8861\u6c34": true
+                "\u6dc4\u535a": true
             },
-            "show": true
+            "show": false
         }
     ],
     "tooltip": {
@@ -132,36 +96,56 @@
                 }
             },
             "data": [
-                "\u91d1\u7816\u7f26\u6c99\u534a\u5c9b",
-                "\u5965\u56ed\u7ff0\u6797\u540d\u82d1",
-                "\u878d\u521b\u7ea2\u5c9b\u58f9\u53f7\u9662",
-                "\u4e3d\u6676\u5fa1\u7b51",
-                "\u5929\u9f50\u96c5\u8bda\u540d\u7b51"
+                "0-3000",
+                "3000-6000",
+                "6000-9000",
+                "9000-12000",
+                "12000-15000",
+                "15000-18000",
+                "18000-21000",
+                "21000-24000",
+                "24000-27000"
             ]
         }
     ],
     "title": [
         {
-            "text": "\u8861\u6c34\u5e02\u65b0\u623f\u6bcf\u5e73\u7c73\u6700\u8d35top5\u697c\u76d8"
+            "text": "\u6dc4\u535a\u5e02\u4e8c\u624b\u623f\u6bcf\u5e73\u7c73\u697c\u76d8\u4ef7\u4f4d\u5360\u6bd4\u5206\u5e03\u56fe",
+            "subtext": "\u5355\u4f4d: \u5143/m\u00b2"
         }
     ],
-    "visualMap": {
-        "type": "continuous",
-        "min": 20,
-        "max": 150,
-        "inRange": {
-            "symbolSize": [
-                20,
-                50
-            ]
-        },
-        "calculable": true,
-        "splitNumber": 5,
-        "orient": "vertical",
-        "showLabel": true
+    "toolbox": {
+        "show": true,
+        "orient": "horizontal",
+        "itemSize": 15,
+        "itemGap": 10,
+        "left": "80%",
+        "feature": {
+            "saveAsImage": {
+                "show": true,
+                "title": "save as image",
+                "type": "png"
+            },
+            "restore": {
+                "show": true,
+                "title": "restore"
+            },
+            "dataView": {
+                "show": true,
+                "title": "data view",
+                "readOnly": false
+            },
+            "dataZoom": {
+                "show": true,
+                "title": {
+                    "zoom": "data zoom",
+                    "back": "data zoom restore"
+                }
+            }
+        }
     }
 };
-        chart_f9fc2c00fef34f578f79c32b8db0b662.setOption(option_f9fc2c00fef34f578f79c32b8db0b662);
+        chart_9d9868d8d7214fd781d35f4dca09d14f.setOption(option_9d9868d8d7214fd781d35f4dca09d14f);
     </script>
 </body>
 </html>

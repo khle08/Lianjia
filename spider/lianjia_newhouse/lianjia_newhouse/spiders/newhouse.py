@@ -60,7 +60,8 @@ class NewhouseSpider(scrapy.Spider):
             if temp:
                 item['img_url'] = temp[0].attrs['data-original']
             else:
-                item['img_url'] = NOT_EXIST_STR
+                item[
+                    'img_url'] = 'https://s1.ljcdn.com/matrix_lianjia_pc/dist/pc/src/resource/default/250-182_1.png?_v=201905091318410f3'
             temp = li.find_all(attrs={'class': 'resblock-location'})
             if temp:
                 item['location'] = temp[0].text.replace('\n', '').split('/')
@@ -110,6 +111,8 @@ class NewhouseSpider(scrapy.Spider):
                     item['second_price'] = NOT_EXIST_NUM
             else:
                 item['second_price'] = NOT_EXIST_NUM
+            if item['main_price'] == NOT_EXIST_NUM or item['second_price'] == NOT_EXIST_NUM:
+                continue
             temp = li.find_all(attrs={'class': 'resblock-tag'})
             if temp:
                 tag = temp[0].text.replace('', '').split('\n')

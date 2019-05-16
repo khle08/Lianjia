@@ -59,7 +59,8 @@ class RentSpider(scrapy.Spider):
             if temp:
                 item['img_url'] = temp[0].img['data-src']
             else:
-                item['img_url'] = NOT_EXIST_STR
+                item[
+                    'img_url'] = 'https://s1.ljcdn.com/matrix_lianjia_pc/dist/pc/src/resource/default/250-182_1.png?_v=201905091318410f3'
             temp = div.find_all(attrs={'class': 'content__list--item-price'})
             if temp:
                 temp = temp[0].text.replace(' ', '').replace('元/月', '')
@@ -69,6 +70,8 @@ class RentSpider(scrapy.Spider):
                     item['price'] = temp
             else:
                 item['price'] = NOT_EXIST_NUM
+            if item['price'] == NOT_EXIST_NUM:
+                continue
             temp = div.find_all(attrs={'class': 'content__list--item--time oneline'})
             if temp:
                 item['post_time'] = temp[0].text.replace(' ', '').strip()

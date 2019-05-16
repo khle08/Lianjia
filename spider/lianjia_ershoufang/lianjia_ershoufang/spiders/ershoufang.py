@@ -13,6 +13,7 @@ class ErshoufangSpider(scrapy.Spider):
     start_urls = []
     house = []
     city = ''
+
     def __int__(self):
         self.start_urls = get_all_city()
         self.city_map = all_city_map()
@@ -45,8 +46,9 @@ class ErshoufangSpider(scrapy.Spider):
             else:
                 item['house_url'] = NOT_EXIST_STR
             if img_title[i][0]:
-                if len(img_title[i][0]) > 120:
-                    item['img_url'] = img_title[i][0].split('">')[0]
+                if img_title[i][0][-3:] != 'jpg':
+                    item[
+                        'img_url'] = 'https://s1.ljcdn.com/matrix_lianjia_pc/dist/pc/src/resource/default/250-182_1.png?_v=201905091318410f3'
                 else:
                     item['img_url'] = img_title[i][0]
             else:
@@ -87,6 +89,8 @@ class ErshoufangSpider(scrapy.Spider):
                 item['unit_price'] = int(unit_price[i])
             else:
                 item['unit_price'] = NOT_EXIST_NUM
+            if item['unit_price'] == NOT_EXIST_NUM or item['total_price'] == NOT_EXIST_NUM:
+                continue
             item['crawl_time'] = int(time.time())
             yield item
 

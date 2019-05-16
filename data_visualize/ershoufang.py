@@ -30,15 +30,15 @@ class ershoufang():
         # 每套房均价
         self.avg_loupan = []
         self.queue = self.collections
-        # for city in self.collections:
-        #     self.unit_price_range(city)
+        for city in self.collections:
+            self.unit_price_range(city)
         #     self.total_price_range(city)
         # self.avg_square_meter(self.collections)
         # self.avg_loupan_price(self.collections)
-        self.square_meter_max_top5(self.collections)
-        self.square_meter_min_top5(self.collections)
-        self.xiaoqu_wordcloud(self.collections)
-        self.position_wordcloud(self.collections)
+        # self.square_meter_max_top5(self.collections)
+        # self.square_meter_min_top5(self.collections)
+        # self.xiaoqu_wordcloud(self.collections)
+        # self.position_wordcloud(self.collections)
 
     # 每平米价位占比
     def unit_price_range(self, city):
@@ -61,7 +61,7 @@ class ershoufang():
                 )
         bar = self.charts.bar(range_key, range_value, city,
                               self.unit_price_template.format(city), "单位: 元/m²")
-        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.unit_price_template.format(city)))
+        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.unit_price_template.format(city)),delay=5)
         print("完成{}二手房每平米价位占比作图".format(city))
 
     # 每套房各价位占比

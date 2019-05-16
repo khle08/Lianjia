@@ -1,12 +1,6 @@
 from flask import Flask, render_template
-from flask import request, redirect, session, url_for, flash
-from flask_script import Manager
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
-from datetime import datetime
-from wtforms import StringField, SubmitField
-from wtforms.validators import DataRequired
-from flask_wtf import FlaskForm
 from lianjia.form import *
 from lianjia.list import *
 from lianjia.search import es_search
