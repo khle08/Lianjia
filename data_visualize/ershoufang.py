@@ -6,6 +6,7 @@ from data_visualize.common import *
 from pyecharts.render import make_snapshot
 # 使用 snapshot-selenium 渲染图片
 from snapshot_selenium import snapshot
+from data_visualize.lang import *
 
 
 class ershoufang():
@@ -32,13 +33,13 @@ class ershoufang():
         self.queue = self.collections
         for city in self.collections:
             self.unit_price_range(city)
-        #     self.total_price_range(city)
-        # self.avg_square_meter(self.collections)
-        # self.avg_loupan_price(self.collections)
-        # self.square_meter_max_top5(self.collections)
-        # self.square_meter_min_top5(self.collections)
-        # self.xiaoqu_wordcloud(self.collections)
-        # self.position_wordcloud(self.collections)
+            self.total_price_range(city)
+        self.avg_square_meter(self.collections)
+        self.avg_loupan_price(self.collections)
+        self.square_meter_max_top5(self.collections)
+        self.square_meter_min_top5(self.collections)
+        self.xiaoqu_wordcloud(self.collections)
+        self.position_wordcloud(self.collections)
 
     # 每平米价位占比
     def unit_price_range(self, city):
@@ -60,9 +61,10 @@ class ershoufang():
                     ).count()
                 )
         bar = self.charts.bar(range_key, range_value, city,
-                              self.unit_price_template.format(city), "单位: 元/m²")
-        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.unit_price_template.format(city)),delay=5)
-        print("完成{}二手房每平米价位占比作图".format(city))
+                              self.unit_price_template.format(city), per_square)
+        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, ershoufang_unit_price.format(city)),
+                      delay=5)
+        print("完成 " + ershoufang_unit_price.format(city))
 
     # 每套房各价位占比
     def total_price_range(self, city):
@@ -84,8 +86,8 @@ class ershoufang():
                     ).count()
                 )
         bar = self.charts.pie_radius(range_key, range_value, self.total_price_template.format(city))
-        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, self.total_price_template.format(city)))
-        print("完成{}二手房每套房价位占比作图".format(city))
+        make_snapshot(snapshot, bar.render(), "{}\\{}.gif".format(save_dir, ershoufang_total_price.format(city)))
+        print("完成" + ershoufang_total_price.format(city))
 
     # 每平米均价
     def avg_square_meter(self, collections):
@@ -146,47 +148,49 @@ class ershoufang():
                     fifth_key.append(city)
                     fifth_value.append(int(average_price[0]['unit_price_avg']))
             self.avg_price_square_meter.append(dict)
-        first_bar = self.charts.bar(first_key, first_value, "", '一线城市二手房每平米均价', self.yuan_per_square)
-        make_snapshot(snapshot, first_bar.render(), "{}\\{}.gif".format(save_dir, '一线城市二手房每平米均价', ))
+        first_bar = self.charts.bar(first_key, first_value, "", first_ershoufang_square_avg, self.yuan_per_square)
+        make_snapshot(snapshot, first_bar.render(), "{}\\{}.gif".format(save_dir, first_ershoufang_square_avg, ))
         new_first_bar = self.charts.bar(new_first_key[:10], new_first_value[:10], "",
-                                        '新一线城市二手房每平米均价(1)', self.yuan_per_square)
-        make_snapshot(snapshot, new_first_bar.render(), "{}\\{}.gif".format(save_dir, '新一线城市二手房每平米均价(1)', ))
+                                        new_first_ershoufang_square_avg, self.yuan_per_square)
+        make_snapshot(snapshot, new_first_bar.render(),
+                      "{}\\{}.gif".format(save_dir, new_first_ershoufang_square_avg, ))
         new_first_bar2 = self.charts.bar(new_first_key[10:], new_first_value[10:], "",
-                                         '新一线城市二手房每平米均价(2)', self.yuan_per_square)
-        make_snapshot(snapshot, new_first_bar2.render(), "{}\\{}.gif".format(save_dir, '新一线城市二手房每平米均价(2)', ))
+                                         new_first_ershoufang_square_avg_2, self.yuan_per_square)
+        make_snapshot(snapshot, new_first_bar2.render(),
+                      "{}\\{}.gif".format(save_dir, new_first_ershoufang_square_avg_2, ))
         second_bar = self.charts.bar(second_key[:10], second_value[:10], "",
-                                     '二线城市二手房每平米均价(1)', self.yuan_per_square)
+                                     second_ershoufang_square_avg, self.yuan_per_square)
         make_snapshot(snapshot, second_bar.render(), "{}\\{}.gif".format(save_dir,
-                                                                         '二线城市二手房每平米均价(1)'))
+                                                                         second_ershoufang_square_avg))
         second_bar2 = self.charts.bar(second_key[10:20], second_value[10:20], "",
-                                      '二线城市二手房每平米均价(2)', self.yuan_per_square)
+                                      second_ershoufang_square_avg_2, self.yuan_per_square)
         make_snapshot(snapshot, second_bar2.render(), "{}\\{}.gif".format(save_dir,
-                                                                          '二线城市二手房每平米均价(2)'))
+                                                                          second_ershoufang_square_avg_2))
         second_bar3 = self.charts.bar(second_key[20:], second_value[20:], "",
-                                      '二线城市二手房每平米均价(3)', self.yuan_per_square)
+                                      second_ershoufang_square_avg_3, self.yuan_per_square)
         make_snapshot(snapshot, second_bar3.render(), "{}\\{}.gif".format(save_dir,
-                                                                          '二线城市二手房每平米均价(3)'))
+                                                                          second_ershoufang_square_avg_3))
         third_bar = self.charts.bar(third_key[:10], third_value[:10], "",
-                                    '三线城市二手房每平米均价(1)', self.yuan_per_square)
-        make_snapshot(snapshot, third_bar.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每平米均价(1)'))
+                                    third_ershoufang_square_avg, self.yuan_per_square)
+        make_snapshot(snapshot, third_bar.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_square_avg))
         third_bar2 = self.charts.bar(third_key[10:20], third_value[10:20], "",
-                                     '三线城市二手房每平米均价(2)', self.yuan_per_square)
-        make_snapshot(snapshot, third_bar2.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每平米均价(2)'))
+                                     third_ershoufang_square_avg_2, self.yuan_per_square)
+        make_snapshot(snapshot, third_bar2.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_square_avg_2))
         third_bar3 = self.charts.bar(third_key[20:], third_value[20:], "",
-                                     '三线城市二手房每平米均价(3)', self.yuan_per_square)
-        make_snapshot(snapshot, third_bar3.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每平米均价(3)'))
+                                     third_ershoufang_square_avg_3, self.yuan_per_square)
+        make_snapshot(snapshot, third_bar3.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_square_avg_3))
         forth_bar = self.charts.bar(forth_key[:10], forth_value[:10], "",
-                                    '四线城市二手房每平米均价(1)', self.yuan_per_square)
-        make_snapshot(snapshot, forth_bar.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每平米均价(1)'))
+                                    forth_ershoufang_suqare_avg, self.yuan_per_square)
+        make_snapshot(snapshot, forth_bar.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_suqare_avg))
         forth_bar2 = self.charts.bar(forth_key[10:20], forth_value[10:20], "",
-                                     '四线城市二手房每平米均价(2)', self.yuan_per_square)
-        make_snapshot(snapshot, forth_bar2.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每平米均价(2)'))
+                                     forth_ershoufang_suqare_avg_2, self.yuan_per_square)
+        make_snapshot(snapshot, forth_bar2.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_suqare_avg_2))
         forth_bar3 = self.charts.bar(forth_key[20:], forth_value[20:], "",
-                                     '四线城市二手房每平米均价(3)', self.yuan_per_square)
-        make_snapshot(snapshot, forth_bar3.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每平米均价(3)'))
+                                     forth_ershoufang_suqare_avg_3, self.yuan_per_square)
+        make_snapshot(snapshot, forth_bar3.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_suqare_avg_3))
         fifth_bar = self.charts.bar(fifth_key, fifth_value, "",
-                                    '五线城市二手房每平米均价', self.yuan_per_square)
-        make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, '五线城市二手房每平米均价'))
+                                    fifth_ershoufang_square_avg, self.yuan_per_square)
+        make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, fifth_ershoufang_square_avg))
         print("完成链家二手房各城市每平米均价作图")
 
     # 每套房均价
@@ -249,47 +253,47 @@ class ershoufang():
                     fifth_key.append(city)
                     fifth_value.append(int(average_price[0]['total_price_avg']))
             self.avg_price_square_meter.append(dict)
-        first_bar = self.charts.bar(first_key, first_value, "", '一线城市二手房每套均价', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, first_bar.render(), "{}\\{}.gif".format(save_dir, '一线城市二手房每套均价', ))
+        first_bar = self.charts.bar(first_key, first_value, "", first_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, first_bar.render(), "{}\\{}.gif".format(save_dir, first_ershoufang_loupan_avg, ))
         new_first_bar = self.charts.bar(new_first_key[:10], new_first_value[:10], "",
-                                        '新一线城市二手房每套均价(1)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, new_first_bar.render(), "{}\\{}.gif".format(save_dir, '新一线城市二手房每套均价(1)', ))
+                                        new_first_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, new_first_bar.render(), "{}\\{}.gif".format(save_dir, new_first_ershoufang_loupan_avg, ))
         new_first_bar2 = self.charts.bar(new_first_key[10:], new_first_value[10:], "",
-                                         '新一线城市二手房每套均价(2)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, new_first_bar2.render(), "{}\\{}.gif".format(save_dir, '新一线城市二手房每套均价(2)', ))
+                                         new_first_ershoufang_loupan_avg_2, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, new_first_bar2.render(), "{}\\{}.gif".format(save_dir, new_first_ershoufang_loupan_avg_2, ))
         second_bar = self.charts.bar(second_key[:10], second_value[:10], "",
-                                     '二线城市二手房每套均价(1)', self.ten_thousand_per_loupan)
+                                     second_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
         make_snapshot(snapshot, second_bar.render(), "{}\\{}.gif".format(save_dir,
-                                                                         '二线城市二手房每套均价(1)'))
+                                                                         second_ershoufang_loupan_avg))
         second_bar2 = self.charts.bar(second_key[10:20], second_value[10:20], "",
-                                      '二线城市二手房每套均价(2)', self.ten_thousand_per_loupan)
+                                      second_ershoufang_loupan_avg_2, self.ten_thousand_per_loupan)
         make_snapshot(snapshot, second_bar2.render(), "{}\\{}.gif".format(save_dir,
-                                                                          '二线城市二手房每套均价(2)'))
+                                                                          second_ershoufang_loupan_avg_2))
         second_bar3 = self.charts.bar(second_key[20:], second_value[20:], "",
-                                      '二线城市二手房每套均价(3)', self.ten_thousand_per_loupan)
+                                      second_ershoufang_loupan_avg_3, self.ten_thousand_per_loupan)
         make_snapshot(snapshot, second_bar3.render(), "{}\\{}.gif".format(save_dir,
-                                                                          '二线城市二手房每套均价(3)'))
+                                                                          second_ershoufang_loupan_avg_3))
         third_bar = self.charts.bar(third_key[:10], third_value[:10], "",
-                                    '三线城市二手房每套均价(1)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, third_bar.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每套均价(1)'))
+                                    third_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, third_bar.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_loupan_avg))
         third_bar2 = self.charts.bar(third_key[10:20], third_value[10:20], "",
-                                     '三线城市二手房每套均价(2)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, third_bar2.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每套均价(2)'))
+                                     third_ershoufang_loupan_avg_2, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, third_bar2.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_loupan_avg_2))
         third_bar3 = self.charts.bar(third_key[20:], third_value[20:], "",
-                                     '三线城市二手房每套均价(3)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, third_bar3.render(), "{}\\{}.gif".format(save_dir, '三线城市二手房每套均价(3)'))
+                                     third_ershoufang_loupan_avg_3, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, third_bar3.render(), "{}\\{}.gif".format(save_dir, third_ershoufang_loupan_avg_3))
         forth_bar = self.charts.bar(forth_key[:10], forth_value[:10], "",
-                                    '四线城市二手房每套均价(1)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, forth_bar.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每套均价(1)'))
+                                    forth_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, forth_bar.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_loupan_avg))
         forth_bar2 = self.charts.bar(forth_key[10:20], forth_value[10:20], "",
-                                     '四线城市二手房每套均价(2)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, forth_bar2.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每套均价(2)'))
+                                     forth_ershoufang_loupan_avg_2, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, forth_bar2.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_loupan_avg_2))
         forth_bar3 = self.charts.bar(forth_key[20:], forth_value[20:], "",
-                                     '四线城市二手房每套均价(3)', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, forth_bar3.render(), "{}\\{}.gif".format(save_dir, '四线城市二手房每套均价(3)'))
+                                     forth_ershoufang_loupan_avg_3, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, forth_bar3.render(), "{}\\{}.gif".format(save_dir, forth_ershoufang_loupan_avg_3))
         fifth_bar = self.charts.bar(fifth_key, fifth_value, "",
-                                    '五线城市二手房每套均价', self.ten_thousand_per_loupan)
-        make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, '五线城市二手房每套均价'))
+                                    fifth_ershoufang_loupan_avg, self.ten_thousand_per_loupan)
+        make_snapshot(snapshot, fifth_bar.render(), "{}\\{}.gif".format(save_dir, fifth_ershoufang_loupan_avg))
         print("完成链家各城市二手房每套均价作图")
 
     # 每平米最贵的top5楼盘
@@ -316,7 +320,7 @@ class ershoufang():
                                                               self.square_price_max_top5.format(city))
             make_snapshot(snapshot, max_top5_scatter.render(),
                           "{}\\{}.gif".format(save_dir, self.square_price_max_top5.format(city)))
-            print('完成 {} 每平米最贵top5小区作图'.format(city))
+            print(hot_xiaoqu_ershoufang.format(city))
 
     # 每平米最便宜的top5楼盘
     def square_meter_min_top5(self, collections):

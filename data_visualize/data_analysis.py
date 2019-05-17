@@ -1,12 +1,15 @@
 from data_visualize.newhouse import newhouse
 from data_visualize.ershoufang import ershoufang
 from data_visualize.rent import rent
-import threading
+import os
+from config import *
 
-if __name__ == '__main__':
-    one = threading.Thread(target=ershoufang())
-    one.start()
-    two = threading.Thread(target=newhouse())
-    two.start()
-    three = threading.Thread(target=rent())
-    three.start()
+
+def data_analysis():
+    os.chdir('data_visualize')
+    data_analysis_status = '正在进行二手房数据分析'
+    one = ershoufang()
+    data_analysis_status = '正在进行新房数据分析'
+    two = newhouse()
+    data_analysis_status = '正在进行租房数据分析'
+    three = rent()
