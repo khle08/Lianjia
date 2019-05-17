@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="update readme">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/data_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/data_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/ershoufang.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/ershoufang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/lang.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/lang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/newhouse.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/newhouse.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/render.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/rent.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/rent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_visualize/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_visualize/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/static/ershoufang/total_price_range/北京市二手房每套房价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/static/ershoufang/total_price_range/北京市二手房每套房价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lianjia/static/ershoufang/unit_price_range/北京市二手房每平米楼盘价位占比分布图.gif" beforeDir="false" afterPath="$PROJECT_DIR$/lianjia/static/ershoufang/unit_price_range/北京市二手房每平米楼盘价位占比分布图.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/crawl_lianjia.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider/crawl_lianjia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_ershoufang/lianjia_ershoufang/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_newhouse/lianjia_newhouse/run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spider/lianjia_rent/lianjia_rent/run.py" beforeDir="false" />
-    </list>
+    <list default="true" id="16fb5336-c362-4f0e-a693-c764951c928f" name="Default" comment="update readme" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -69,7 +52,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
-                <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+                <caret column="17" selection-start-column="17" selection-end-column="17" />
               </first_editor>
               <second_editor />
             </state>
@@ -411,7 +394,7 @@
       <workItem from="1557906513625" duration="4222000" />
       <workItem from="1557997958815" duration="646000" />
       <workItem from="1558000267202" duration="9549000" />
-      <workItem from="1558065983583" duration="4236000" />
+      <workItem from="1558065983583" duration="4778000" />
     </task>
     <task id="LOCAL-00001" summary="update lianjia spider">
       <created>1556609653127</created>
@@ -459,7 +442,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="348990000" />
+    <option name="totallyTimeSpent" value="349532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,7 +937,7 @@
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
@@ -972,7 +955,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+            <caret column="17" selection-start-column="17" selection-end-column="17" />
           </first_editor>
           <second_editor />
         </state>
