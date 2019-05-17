@@ -5,7 +5,16 @@
         *  data_visualize模块聚合MongoDB进行数据分析后，利用pyecharts生成图表保存到本地
         * 通过flask实现数据展示
 ---
-数据分析
++ 项目运行步骤
++ 安装依赖的python包
++ pip install -r requirements.txt
++ 运行GraduationProject目录的run.py,即可运行项目
++ data_visualize目录为数据分析模块代码
++ lianjia为网站显示模块
++ spider为爬虫模块
++ config目录为项目的配置文件
+---
++ 数据分析视角
 ---
 + 新房
     1. main_price各区间分布
@@ -37,7 +46,7 @@
     * 每套最低top5
     * tag词云
 ---
-数据可视化模块通过pyecharts读取数据进行图表渲染
++ 数据可视化模块通过pyecharts读取数据进行图表渲染
     
     
 
