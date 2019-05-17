@@ -3,9 +3,9 @@
         - 数据爬取模块
         * 使用scrapy框架对链家的新房，二手房，租房数据进行爬取，存入MongoDB和Elasticsearch数据库
         *  data_visualize模块聚合MongoDB进行数据分析后，利用pyecharts生成图表保存到本地
-        * 通过flask实现数据展示
+        * 通过flask实现数据的网站展示
 ---
-+ 项目运行步骤
++ 项目运行步骤：
 + 安装依赖的python包
 + pip install -r requirements.txt
 + 运行GraduationProject目录的run.py,即可运行项目
