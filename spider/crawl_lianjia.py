@@ -33,3 +33,4 @@ def crawl_lianjia():
     spider_status = '正在爬取租房数据'
     crawl_rent()
     data_update_time = int(time.time())
+    os.chdir('..')
