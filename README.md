@@ -47,8 +47,15 @@
     * tag词云
 ---
 + 数据可视化模块通过pyecharts读取数据进行图表渲染
-    
-    
+## 数据可视化图表如下:
+* 二手房
 
+![](lianjia\static\ershoufang\avg_loupan\新一线城市二手房每套均价(1).gif)
+![](lianjia\static\ershoufang\position_wordcloud\北京市二手房热门地段.gif)
+![](lianjia\static\ershoufang\square_meter_max_top5\北京市二手房每平米最贵top5小区.gif)
+![](lianjia\static\ershoufang\square_meter_min_top5\哈尔滨市二手房每平米最便宜top5小区.gif)
+![](lianjia\static\ershoufang\total_price_range\成都市二手房每套房价位占比分布图.gif)
+![](lianjia\static\ershoufang\unit_price_range\北京市二手房每平米楼盘价位占比分布图.gif)
+![](lianjia\static\ershoufang\xiaoqu_wordcloud\武汉市二手房热门小区.gif)
 
-
+* 新房
