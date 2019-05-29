@@ -50,7 +50,7 @@
 ## 数据可视化图表如下:
 * 二手房
 
-![](lianjia\static\ershoufang\avg_loupan\新一线城市二手房每套均价(1).gif)
+![](lianjia/static/ershoufang/avg_loupan/新一线城市二手房每套均价(1).gif)
 ![](lianjia\static\ershoufang\position_wordcloud\北京市二手房热门地段.gif)
 ![](lianjia\static\ershoufang\square_meter_max_top5\北京市二手房每平米最贵top5小区.gif)
 ![](lianjia\static\ershoufang\square_meter_min_top5\哈尔滨市二手房每平米最便宜top5小区.gif)
