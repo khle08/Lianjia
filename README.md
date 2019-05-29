@@ -51,11 +51,27 @@
 * 二手房
 
 ![](lianjia/static/ershoufang/avg_loupan/新一线城市二手房每套均价(1).gif)
-![](lianjia\static\ershoufang\position_wordcloud\北京市二手房热门地段.gif)
-![](lianjia\static\ershoufang\square_meter_max_top5\北京市二手房每平米最贵top5小区.gif)
-![](lianjia\static\ershoufang\square_meter_min_top5\哈尔滨市二手房每平米最便宜top5小区.gif)
-![](lianjia\static\ershoufang\total_price_range\成都市二手房每套房价位占比分布图.gif)
-![](lianjia\static\ershoufang\unit_price_range\北京市二手房每平米楼盘价位占比分布图.gif)
-![](lianjia\static\ershoufang\xiaoqu_wordcloud\武汉市二手房热门小区.gif)
+![](lianjia/static/ershoufang/position_wordcloud/北京市二手房热门地段.gif)
+![](lianjia/static/ershoufang/square_meter_max_top5/北京市二手房每平米最贵top5小区.gif)
+![](lianjia/static/ershoufang/square_meter_min_top5/哈尔滨市二手房每平米最便宜top5小区.gif)
+![](lianjia/static/ershoufang/total_price_range/成都市二手房每套房价位占比分布图.gif)
+![](lianjia/static/ershoufang/unit_price_range/北京市二手房每平米楼盘价位占比分布图.gif)
+![](lianjia/static/ershoufang/xiaoqu_wordcloud/武汉市二手房热门小区.gif)
 
 * 新房
+![](lianjia/static/newhouse/avg_loupan/链家部分二线内陆城市每套新房均价.gif)
+![](lianjia/static/newhouse/avg_square_meter/链家部分一线城市及新一线城市新房每平米均价.gif)
+![](lianjia/static/newhouse/huxing_count/珠海市新房户型占比分布图.gif)
+![](lianjia/static/newhouse/main_price_range/承德市新房每平米楼盘价位占比分布图.gif)
+![](lianjia/static/newhouse/second_price_range/重庆市每套新房价位占比分布图.gif)
+![](lianjia/static/newhouse/square_meter_max_top5/成都市新房每平米最贵top5楼盘.gif)
+![](lianjia/static/newhouse/square_meter_min_top5/杭州市新房每平米最便宜top5楼盘.gif)
+![](lianjia/static/newhouse/tag_wordcloud/上海市新房热门标签.gif)
+![](lianjia/static/newhouse/wuye_type_count/南京市新房物业类型占比分布图.gif)
+* 租房
+![](lianjia/static/rent/avg_price/一线城市租房均价.gif)
+![](lianjia/static/rent/brand_avg_price/东莞市房源占比最高平台top5均价.gif)
+![](lianjia/static/rent/rent_max_top5/合肥市租房价格最高top5.gif)
+![](lianjia/static/rent/rent_min_top5/杭州市租房价格最低top5.gif)
+![](lianjia/static/rent/source_percentage/广州市链家租房来源.gif)
+![](lianjia/static/rent/tag_wordcloud/杭州市租房热门标签.gif)
